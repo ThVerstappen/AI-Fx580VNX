@@ -1,0 +1,23 @@
+{
+  "old_components": 132,
+  "new_components": 133,
+  "all_old_components_xml_identical": true,
+  "all_old_pin_connections_identical": true,
+  "old_pins": 424,
+  "new_pins": 426,
+  "added_components": [
+    "C25"
+  ],
+  "added_connections": {
+    "C25.1": "/VBUS",
+    "C25.2": "GND"
+  },
+  "old_nets": 102,
+  "new_nets": 102,
+  "erc_errors": 0,
+  "erc_warnings": 0,
+  "baseline_root_blocks_unchanged_except_U6_text_positions_and_title_block": true,
+  "only_5_added_root_objects": true,
+  "candidate_sha256": "ee99d3e4a1b9a918ae5de7c29e8c223810441aa4a9b3986cfefdc51363b67eaa",
+  "pro_settings_identical": true
+}

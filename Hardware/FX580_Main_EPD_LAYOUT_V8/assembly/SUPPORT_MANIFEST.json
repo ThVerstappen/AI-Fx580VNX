@@ -1,0 +1,74 @@
+{
+  "prepared_on": "2026-10-11",
+  "revision": "V8_USB_FIX1",
+  "copies_identical_to_existing_V7_evidence": true,
+  "source_files_unchanged": true,
+  "files": {
+    "inherited_v7/DIODE_POLARITY_V7_BOOST2.csv": {
+      "source": "assembly/DIODE_POLARITY_V7_BOOST2.csv",
+      "sha256": "c04435cfce6033c3caeeaf571307c6a19a7b6f4563ac7032a99af0e17bcd5f9f",
+      "bytes": 601
+    },
+    "inherited_v7/DIODE_POLARITY_V7_BOOST2.png": {
+      "source": "assembly/DIODE_POLARITY_V7_BOOST2.png",
+      "sha256": "20f17462b3779db4eeb686df1fa859ba51c8770b25007392f749dd654acd7936",
+      "bytes": 64563
+    },
+    "inherited_v7/PIN_MAPPING_V7_BOOST2.csv": {
+      "source": "assembly/PIN_MAPPING_V7_BOOST2.csv",
+      "sha256": "d986d98920da2e74489cbfd8295d1e00977251794f4f346f7451fbe3b5316f5a",
+      "bytes": 13313
+    },
+    "inherited_v7/PIN1_MAP_V7_BOOST2.png": {
+      "source": "assembly/PIN1_MAP_V7_BOOST2.png",
+      "sha256": "469561c0177722e90c5fe832948024e302398ffa8ccfb46ea4f4961d6201eb97",
+      "bytes": 150557
+    },
+    "inherited_v7/ROTATION_CORRECTIONS.json": {
+      "source": "assembly/ROTATION_CORRECTIONS.json",
+      "sha256": "804f0c5cfd18d4bc70e4b49cb02cc47738ec644550f775e8e764ab19168d14ca",
+      "bytes": 1480
+    },
+    "inherited_v7/EXCLUDED_AND_MANUAL_767bdf1a.csv": {
+      "source": "assembly/EXCLUDED_AND_MANUAL_767bdf1a.csv",
+      "sha256": "385124204f49080088eb4b5c46f2e94cac4f0936e5c79bca81a1a66570866c43",
+      "bytes": 4672
+    }
+  },
+  "original_70_CPL_rows_and_raw_bytes_preserved": true,
+  "BOM_groups": 35,
+  "BOM_parts_per_board": 71,
+  "CPL_Top_rows": 71,
+  "rotation_corrections_match_current_CPL": true,
+  "diode_codes_and_angles_match_current_BOM_CPL": true,
+  "inherited_pin_map_rows": 217,
+  "inherited_pin_map_references": [
+    "D1",
+    "D2",
+    "D3",
+    "J1",
+    "J3",
+    "J4",
+    "L2",
+    "Q1",
+    "Q2",
+    "Q3",
+    "U1",
+    "U2",
+    "U3",
+    "U4",
+    "U5",
+    "U6"
+  ],
+  "separate_C25_pin_map_rows": 2,
+  "unchanged_excluded_manual_rows": 62,
+  "native_current_PCB_comparison": "../USB_FIX1_REPORTS/SCOPE_CHECK.json and ELECTRICAL_ASSEMBLY_CHECK.json passed for final PCB",
+  "excluded_from_inheritance": [
+    "FABRICATION_NOTES.txt",
+    "VIA_FILL_SITES.csv"
+  ],
+  "reason_excluded": "V7 fabrication instructions and four under-pad via-fill sites do not describe the V8 moved-via geometry.",
+  "adopted_on": "2026-10-11",
+  "final_PCB_sha256": "e93aa1bd2bf7411eaec53a455c684dbb21c05adc65eddb268d3a5f1f0bc06f77",
+  "source_path_scope": "files.source paths refer to pre-adoption assembly, preserved in usb_fix_20261010/assembly_before_usb; inherited copies retain exact bytes"
+}

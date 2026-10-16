@@ -1,0 +1,375 @@
+{
+  "U1": {
+    "lcsc": "C3013941",
+    "library_model": "BULETM-SMD_ESP32-S3-MINI-1-N8",
+    "uuid": "1270b5cf7aa247fc9d0ae79a19686940",
+    "sources": {
+      "metadata": "https://easyeda.com/api/products/C3013941/components?version=6.4.19.5",
+      "obj": "https://modules.easyeda.com/3dmodel/1270b5cf7aa247fc9d0ae79a19686940",
+      "step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/1270b5cf7aa247fc9d0ae79a19686940"
+    },
+    "sha256_raw": {
+      "obj": "cf24d76da38e1bd235f14d1d992651653e919c7c81b7b33b55b3e1f795824704",
+      "step": "a12ead598d61c0c56e02791e28539e9909ed3d8cca0b2e6418fe76be338c9cf7"
+    },
+    "metadata_translation_mm": {
+      "x": 0.0,
+      "y": 2.540127000000026,
+      "z": 0.0
+    },
+    "metadata_rotation_deg": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "baked_transform": {
+      "rotation_z_deg": 0,
+      "translation_mm": [
+        0,
+        -0.025,
+        0.02
+      ],
+      "scale": 1
+    },
+    "registered_step_bbox_mm": [
+      -7.7000001000000005,
+      -10.2750001,
+      -1e-07,
+      7.700000100000002,
+      10.225000099999999,
+      2.4300001
+    ],
+    "confidence": "Third-party library visualization; not manufacturer-certified",
+    "sha256_registered": {
+      "wrl": "3c3a583b3be7d5f73d56d65edf451d33ab48fd04583061603dce83f15b1458d6",
+      "step": "46d92a4d17ce1fe2a327fbd40f6dc18e350971409fd10c468256216ba0ce4c6c"
+    },
+    "caveat": "Library named MINI-1-N8, mechanical envelope used for N4R2; contacts registered directly, not canvas origin."
+  },
+  "U2": {
+    "lcsc": "C54313",
+    "library_model": "QFN-16_L3.0-W3.0-P0.50-EP1.7",
+    "uuid": "6e50ae26fe4f4c2a8ee6b5b5bc616dea",
+    "sources": {
+      "metadata": "https://easyeda.com/api/products/C54313/components?version=6.4.19.5",
+      "obj": "https://modules.easyeda.com/3dmodel/6e50ae26fe4f4c2a8ee6b5b5bc616dea",
+      "step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/6e50ae26fe4f4c2a8ee6b5b5bc616dea"
+    },
+    "sha256_raw": {
+      "obj": "35c63e0b7251ffcc22cf8719f5702b4599aeb413d9743a9de0c8f1424b659670",
+      "step": "cbd84bd983b093cf9803fad2250c3162fa2ead5ad6a559c154f81fb9493487a8"
+    },
+    "metadata_translation_mm": {
+      "x": 0.0,
+      "y": -0.0,
+      "z": 0.0
+    },
+    "metadata_rotation_deg": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "baked_transform": {
+      "rotation_z_deg": 0,
+      "translation_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "registered_step_bbox_mm": [
+      -1.5100001,
+      -1.5100001000000027,
+      -1e-07,
+      1.5100001000000018,
+      1.510000100000001,
+      0.7601001
+    ],
+    "confidence": "Third-party library visualization; not manufacturer-certified",
+    "sha256_registered": {
+      "wrl": "ed0d407dcbb7e24423c929b9cfe2895fa2e999054faf8b5318b10758ba817ad7",
+      "step": "649de8c67c82313d35d4e39d2d0b907a15ea61898efc8e4280ab299932bf93f3"
+    },
+    "caveat": "Library EP1.7 differs from footprint EP1.6; visualization only."
+  },
+  "U3": {
+    "lcsc": "C2845237",
+    "library_model": "VSON-10_L3.0-W2.0-P0.50-TL",
+    "uuid": "aaec7da25c23451ca65c9907eea57d42",
+    "sources": {
+      "metadata": "https://easyeda.com/api/products/C2845237/components?version=6.4.19.5",
+      "obj": "https://modules.easyeda.com/3dmodel/aaec7da25c23451ca65c9907eea57d42",
+      "step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/aaec7da25c23451ca65c9907eea57d42"
+    },
+    "sha256_raw": {
+      "obj": "cd6b6ef43aaf7e122c55486d6e0947c06db337a580ef5467c26bd91900646fe9",
+      "step": "bc85a29d8208810bac4c7ee38023876ca7c9f23d0379eefc3351496615708933"
+    },
+    "metadata_translation_mm": {
+      "x": 0.0,
+      "y": -0.0,
+      "z": 0.0
+    },
+    "metadata_rotation_deg": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "baked_transform": {
+      "rotation_z_deg": 0,
+      "translation_mm": [
+        0,
+        0,
+        0.95
+      ],
+      "scale": 1
+    },
+    "registered_step_bbox_mm": [
+      -1.0000001,
+      -1.5000001,
+      -1e-07,
+      1.0000001,
+      1.5000001,
+      0.9510000999999999
+    ],
+    "confidence": "Third-party library visualization; not manufacturer-certified",
+    "sha256_registered": {
+      "wrl": "93c5c9711be43bf1fcdaa8f8b2cefd6bcc4136e9a8c670e0ae88f5d769222fe2",
+      "step": "02aa6583bc350d104b8b958b401ebbd890879151b0b5a5b6d8b25f6111a3cf3c"
+    }
+  },
+  "U5": {
+    "lcsc": "C138713",
+    "library_model": "WQFN-24_L4.0-W4.0-H0.8-P0.50",
+    "uuid": "0e74e3f310c34e629d3374f75a3f8221",
+    "sources": {
+      "metadata": "https://easyeda.com/api/products/C138713/components?version=6.4.19.5",
+      "obj": "https://modules.easyeda.com/3dmodel/0e74e3f310c34e629d3374f75a3f8221",
+      "step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/0e74e3f310c34e629d3374f75a3f8221"
+    },
+    "sha256_raw": {
+      "obj": "f89429ad6a96ef0c56ee73453788498ea346b3b627655cc1334dfa53849af6c2",
+      "step": "ec3b69e80f77d7416e353aefdce71594e91618208d27ac4b033c4e5c7796f355"
+    },
+    "metadata_translation_mm": {
+      "x": -0.005994399999996858,
+      "y": -0.0050038000000000695,
+      "z": 0.0
+    },
+    "metadata_rotation_deg": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 270.0
+    },
+    "baked_transform": {
+      "rotation_z_deg": -90,
+      "translation_mm": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1
+    },
+    "registered_step_bbox_mm": [
+      -2.0100000999999996,
+      -2.0100000999999996,
+      -1e-07,
+      2.0100000999999996,
+      2.0100000999999996,
+      0.8110001
+    ],
+    "confidence": "Third-party library visualization; not manufacturer-certified",
+    "sha256_registered": {
+      "wrl": "8a9cb2d31a1c63c1d475863482b9ad07304ededdeb325acc4dee71434ebbf3a2",
+      "step": "e4dabf99d91e419a1d61fd8d54f6cbd063e6516f2a3c11ecad851b33372f4ab5"
+    }
+  },
+  "Q1": {
+    "lcsc": "C2830320",
+    "library_model": "SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95",
+    "uuid": "229b69761e2c45dba6a83d8866dec72d",
+    "sources": {
+      "metadata": "https://easyeda.com/api/products/C2830320/components?version=6.4.19.5",
+      "obj": "https://modules.easyeda.com/3dmodel/229b69761e2c45dba6a83d8866dec72d",
+      "step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/229b69761e2c45dba6a83d8866dec72d"
+    },
+    "sha256_raw": {
+      "obj": "b4a68fd1399fd2ab9e7baf51fd4bb6dd8b2a8be45c2b632e1f2c84723c5d7e45",
+      "step": "f24d05dd87ac04518fdaed88a57d135441fe22452089387784c4deda2bc09d61"
+    },
+    "metadata_translation_mm": {
+      "x": 2.5399999935871167e-05,
+      "y": -7.619999992311933e-05,
+      "z": 0.0
+    },
+    "metadata_rotation_deg": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 180.0
+    },
+    "baked_transform": {
+      "rotation_z_deg": 180,
+      "translation_mm": [
+        0,
+        0,
+        0.059
+      ],
+      "scale": 1
+    },
+    "registered_step_bbox_mm": [
+      -1.4063836544660004,
+      -1.4504373052500081,
+      -2.7294217250642304e-05,
+      1.4063836544660002,
+      1.4504373052494681,
+      1.6600001
+    ],
+    "confidence": "Third-party library visualization; not manufacturer-certified",
+    "sha256_registered": {
+      "wrl": "b89d5f525381e5edcb4444563e17b892e2e70cca483abe38434e99baef822257",
+      "step": "30871b2769be732faeda1cf70af6a7f5d5424844700d8391964f452612a4fbaf"
+    }
+  },
+  "J1": {
+    "lcsc": "C2906289",
+    "library_model": "USB-C-SMD_TYPE-C-16P-CB0.8-073",
+    "uuid": "847fe37f814b4ef69ab0adb41da34c2d",
+    "sources": {
+      "metadata": "https://easyeda.com/api/products/C2906289/components?version=6.4.19.5",
+      "obj": "https://modules.easyeda.com/3dmodel/847fe37f814b4ef69ab0adb41da34c2d",
+      "step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/847fe37f814b4ef69ab0adb41da34c2d"
+    },
+    "sha256_raw": {
+      "obj": "fee1ec7b0c28fb8268df0e95d30ecff55932bfae8faeec37a279d5ddab031ecf",
+      "step": "64661dd841fa828c9e460ba4ffe7adeef2de2f1250ebc0f9dec3e36767cc57ee"
+    },
+    "metadata_translation_mm": {
+      "x": 0.0,
+      "y": -1.0999978000001103,
+      "z": -0.7999984
+    },
+    "metadata_rotation_deg": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "baked_transform": {
+      "rotation_z_deg": 0,
+      "translation_mm": [
+        0,
+        -1.46,
+        0.78
+      ],
+      "scale": 1
+    },
+    "registered_step_bbox_mm": [
+      -5.7700001,
+      -4.710000100000006,
+      -0.8000001000000226,
+      5.7700001,
+      2.4900001000000005,
+      2.3610000999999996
+    ],
+    "confidence": "Third-party library visualization; not manufacturer-certified",
+    "sha256_registered": {
+      "wrl": "7e8a78328f387273869d8c9b58bbb9adbf4d815a1b344c3b938dbeb21ee6383c",
+      "step": "0c7ad43a6313a78bf97c80729c8600e5c68e7a4df97244bff49258401b7af0a7"
+    },
+    "caveat": "Mid-mount, shell-tab registration; signal feet overlap rather than center on pads; manufacturer seating unverified."
+  },
+  "J3": {
+    "lcsc": "C585350",
+    "library_model": "SIM-SMD_8P-1040310811",
+    "uuid": "9e47b13a9ff14adbbe31663f5a4d6dfb",
+    "sources": {
+      "metadata": "https://easyeda.com/api/products/C585350/components?version=6.4.19.5",
+      "obj": "https://modules.easyeda.com/3dmodel/9e47b13a9ff14adbbe31663f5a4d6dfb",
+      "step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/9e47b13a9ff14adbbe31663f5a4d6dfb"
+    },
+    "sha256_raw": {
+      "obj": "3d673bbc33ad4166165fc5222921b2939ab2204dffbc7e697c4cedbb3ecaaf0f",
+      "step": "fd9a6b228d3da7040f1e954cf47be4a9e0fae1d2438e602f12167f681adae085"
+    },
+    "metadata_translation_mm": {
+      "x": 0.0,
+      "y": -0.0500126000000937,
+      "z": 0.0
+    },
+    "metadata_rotation_deg": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "baked_transform": {
+      "rotation_z_deg": 180,
+      "translation_mm": [
+        0,
+        0,
+        0.05
+      ],
+      "scale": 1
+    },
+    "registered_step_bbox_mm": [
+      -5.9750040823048245,
+      -5.700004082304824,
+      -4.082304822933395e-06,
+      5.975004082304825,
+      5.700004082304824,
+      1.471004082304823
+    ],
+    "confidence": "Third-party library visualization; not manufacturer-certified",
+    "sha256_registered": {
+      "wrl": "7eb663b841717c6b85eaaf3666fbd8fade8c36f95968241241bbd8cc0dbd79c6",
+      "step": "9d36ed0ddeb2d0adc8e96aef4a6752da36cb386fd299428cccf1d3cd56726287"
+    },
+    "caveat": "Body spans adjacent 4.5mm cutout; possible case-post collision. Registered height 1.471mm vs nominal 1.42mm."
+  },
+  "L1": {
+    "lcsc": "C703140",
+    "library_model": "IND-SMD_L2.5-W2.0_MHCD252012B-2R2M-A8L",
+    "uuid": "d0c9ba182e69427b9ef968e120344802",
+    "sources": {
+      "metadata": "https://easyeda.com/api/products/C703140/components?version=6.4.19.5",
+      "obj": "https://modules.easyeda.com/3dmodel/d0c9ba182e69427b9ef968e120344802",
+      "step": "https://modules.easyeda.com/qAxj6KHrDKw4blvCG8QJPs7Y/d0c9ba182e69427b9ef968e120344802"
+    },
+    "sha256_raw": {
+      "obj": "f59562b5a54cb26ba16e25535a78ee8764e6162692df01eff2d23b9f467e1225",
+      "step": "373b23b3234ab12d42bf193cb642b66b6c185722453b17ca827a9a7a65614185"
+    },
+    "metadata_translation_mm": {
+      "x": 0.0,
+      "y": -0.0,
+      "z": 0.0
+    },
+    "metadata_rotation_deg": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "baked_transform": {
+      "rotation_z_deg": 0,
+      "translation_mm": [
+        0,
+        0,
+        1.2
+      ],
+      "scale": 1
+    },
+    "registered_step_bbox_mm": [
+      -1.2500001,
+      -1.0100001,
+      -1e-07,
+      1.2500001000000003,
+      1.0100001,
+      1.2000001
+    ],
+    "confidence": "Third-party library visualization; not manufacturer-certified",
+    "sha256_registered": {
+      "wrl": "01ac80753cd779303026fe38e35a8c5ec3ad8a207b974aa04724f03359145570",
+      "step": "ef24ce87abddc459a698f5b1933a9e18c898c8ba6f5f79fdb2f340229e7ea43c"
+    },
+    "caveat": "MHCD252012B library envelope is an approximation for DFE252012F, not verified TDK CAD."
+  }
+}

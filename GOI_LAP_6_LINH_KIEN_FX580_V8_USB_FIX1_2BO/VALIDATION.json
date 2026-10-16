@@ -1,0 +1,36 @@
+{
+  "sources": {
+    "BOM": {
+      "path": "E:\\AI Fx580 VNX\\Hardware\\FX580_Main_EPD_LAYOUT_V8\\assembly\\BOM_JLCPCB_V8_USB_FIX1.csv",
+      "sha256": "3f3951c32f453268f416b5a892aec2036b19c1da65c2a26e35af50cadb1f00ff"
+    },
+    "CPL": {
+      "path": "E:\\AI Fx580 VNX\\Hardware\\FX580_Main_EPD_LAYOUT_V8\\assembly\\CPL_JLCPCB_V8_USB_FIX1.csv",
+      "sha256": "7b6acdaf8f257cb0c66f3a77a3222b59390973d6bf42022adecdf68257a42614"
+    }
+  },
+  "CAD_hashes": {
+    ".kicad_pcb": "e93aa1bd2bf7411eaec53a455c684dbb21c05adc65eddb268d3a5f1f0bc06f77",
+    ".kicad_sch": "ee99d3e4a1b9a918ae5de7c29e8c223810441aa4a9b3986cfefdc51363b67eaa",
+    ".kicad_pro": "ec4bf0921a5091743d0572d866287cb1acbb657c42332ae2b982302fcb21551a"
+  },
+  "selected_references": [
+    "J4",
+    "L1",
+    "L2",
+    "Q3",
+    "U2",
+    "U3"
+  ],
+  "BOM_rows": 6,
+  "CPL_rows": 6,
+  "BOM_parts_per_board": 6,
+  "assembly_board_quantity": 2,
+  "total_placements": 12,
+  "all_source_rows_byte_preserved": true,
+  "BOM_CPL_references_identical": true,
+  "exact_MPN_manufacturer_and_LCSC_match": true,
+  "all_CPL_Top": true,
+  "source_project_manifest_109_files_unchanged": true,
+  "factory_preview_performed": false
+}

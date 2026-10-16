@@ -1,0 +1,9 @@
+{
+  "sha256": "e93aa1bd2bf7411eaec53a455c684dbb21c05adc65eddb268d3a5f1f0bc06f77",
+  "full_B_bridge_copper_key_envelope_overlap_mm2": 0.0,
+  "B_bridge_min_key_envelope_copper_gap_mm": 1.0991329752515782,
+  "images": [
+    "E:\\AI Fx580 VNX\\Hardware\\FX580_Main_EPD_LAYOUT_V8\\usb_fix_20261010\\ground_review\\RELEASE_USB_U6_GND.png",
+    "E:\\AI Fx580 VNX\\Hardware\\FX580_Main_EPD_LAYOUT_V8\\usb_fix_20261010\\ground_review\\RELEASE_USB_MCU_GND.png"
+  ]
+}

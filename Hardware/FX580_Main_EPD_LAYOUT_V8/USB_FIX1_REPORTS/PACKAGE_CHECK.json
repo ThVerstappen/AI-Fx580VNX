@@ -1,0 +1,26 @@
+{
+  "folder": "E:\\AI Fx580 VNX\\GOI_GERBER_FX580_V8_USB_FIX1_5PCB",
+  "zip": "E:\\AI Fx580 VNX\\GOI_GERBER_FX580_V8_USB_FIX1_5PCB\\FX580_V8_USB_FIX1_GERBER.zip",
+  "zip_sha256": "b039c28f045806c5d328b72e4b0b51860ec67c10880f7635cf2fb1745c4a5aa3",
+  "members": {
+    "FX580_Main_EPD_LAYOUT_V8-B_Cu.gbl": "bdf0ce1f7d23fb45242b6c259da74952958a12df3daaf82242f8ab330de61948",
+    "FX580_Main_EPD_LAYOUT_V8-B_Mask.gbs": "34adde68f61d6bdd3f8df99743bb4d77a941384546b2a60bf1c6faad0503c20f",
+    "FX580_Main_EPD_LAYOUT_V8-B_Silkscreen.gbo": "2129c5d16d654efda0c3ac35bcc47df889f55f343aef52e46c31bf1d9cc7a331",
+    "FX580_Main_EPD_LAYOUT_V8-Edge_Cuts.gm1": "38018db68e550ab64c984d03d372b62f37e7a498d6a3ecde102f09287477cf3f",
+    "FX580_Main_EPD_LAYOUT_V8-F_Cu.gtl": "d3319b486de3b5c456bbfa24de9df1f31e2c1f1f91420979f5003a62a83a7dde",
+    "FX580_Main_EPD_LAYOUT_V8-F_Mask.gts": "f7ab26fc4f33fc9fa42bdab2128dbd31947bd7a5155156a61eb68af22d33a843",
+    "FX580_Main_EPD_LAYOUT_V8-F_Silkscreen.gto": "d99531d57431147fa0d7181f57ac8ecff507fa6b03091f65c44bb6156b95ae55",
+    "FX580_Main_EPD_LAYOUT_V8-In1_Cu.g1": "e3ebd190e0a8fedd4572af51d4414a2295dde9675ad76f66f67a98c54f7b5053",
+    "FX580_Main_EPD_LAYOUT_V8-In2_Cu.g2": "d937d6678da2e1388813747936b3a7dc110e5c279b267889c6c32d85b43a7b74",
+    "FX580_Main_EPD_LAYOUT_V8-job.gbrjob": "13fc1a742004a9ddcf7a81ba5b08db32ca818b1af43f9ae5bcc55743669121d9",
+    "FX580_Main_EPD_LAYOUT_V8-NPTH.drl": "c8abdf7c0e2015b1ecb9003eb1a4bf52ac58b2c754ed5bbfdd99a5ce73804fa4",
+    "FX580_Main_EPD_LAYOUT_V8-PTH.drl": "f26ae04973d0b918d9e2eaa56ac0e5a3b719f1769d40b98a9519bb7eaf221e11",
+    "FABRICATION_NOTES_V8_USB_FIX1.txt": "4b42785caf565398a93a6f6c2db940658581ec7f3ee7fc89c9bb0dc9721ef846"
+  },
+  "CRC_passed": true,
+  "all_member_bytes_match": true,
+  "manifest_passed": true,
+  "PCB_quantity": 5,
+  "PCBA_quantity": 0,
+  "stencil_delivery": false
+}

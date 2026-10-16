@@ -1,0 +1,43 @@
+{
+  "independent_parser": "Gerbonara/Shapely",
+  "via_count": 255,
+  "native_via_diameter_distribution_mm": {
+    "0.5": 39,
+    "0.6": 216
+  },
+  "via_drill_distribution_mm": {
+    "0.3": 255
+  },
+  "all_vias_native_tented_both_sides": true,
+  "drill_hits": 263,
+  "native_holes_all_match_CAM": true,
+  "via_holes_under_paste": [],
+  "exposed_via_holes": [],
+  "same_100_V7_key_contact_regions": true,
+  "key_contact_difference_max_mm2": 0.0,
+  "key_count": 50,
+  "minimum_key_contact_gap_mm": 0.34990158774075025,
+  "all_native_pad_groups_match": 427,
+  "C25_native_pad_groups_match": 2,
+  "maximum_pad_boundary_error_mm": 0.0010391808520298078,
+  "pcb_gerbers": 9,
+  "excellon_files": 2,
+  "job_files": 1,
+  "paste_internal_only": true,
+  "input_sources_unchanged": true,
+  "images": [
+    "E:\\AI Fx580 VNX\\Hardware\\FX580_Main_EPD_LAYOUT_V8\\usb_fix_20261010\\exports_release_20261011\\review\\CAM_front.png",
+    "E:\\AI Fx580 VNX\\Hardware\\FX580_Main_EPD_LAYOUT_V8\\usb_fix_20261010\\exports_release_20261011\\review\\CAM_keyface.png",
+    "E:\\AI Fx580 VNX\\Hardware\\FX580_Main_EPD_LAYOUT_V8\\usb_fix_20261010\\exports_release_20261011\\review\\CAM_In1.png",
+    "E:\\AI Fx580 VNX\\Hardware\\FX580_Main_EPD_LAYOUT_V8\\usb_fix_20261010\\exports_release_20261011\\review\\CAM_In2.png",
+    "E:\\AI Fx580 VNX\\Hardware\\FX580_Main_EPD_LAYOUT_V8\\usb_fix_20261010\\exports_release_20261011\\review\\CAM_stencil.png"
+  ],
+  "limitations": "Independent local geometry/CAM checks; no factory CAM approval or electrical/fit/hardware qualification.",
+  "all_native_surface_pad_entries_match": 445,
+  "protected_V7_files_unchanged": 89,
+  "USB_zoom_images": [
+    "E:\\AI Fx580 VNX\\Hardware\\FX580_Main_EPD_LAYOUT_V8\\usb_fix_20261010\\exports_release_20261011\\review\\CAM_USB_F_Cu.png",
+    "E:\\AI Fx580 VNX\\Hardware\\FX580_Main_EPD_LAYOUT_V8\\usb_fix_20261010\\exports_release_20261011\\review\\CAM_USB_In1_Cu.png",
+    "E:\\AI Fx580 VNX\\Hardware\\FX580_Main_EPD_LAYOUT_V8\\usb_fix_20261010\\exports_release_20261011\\review\\CAM_USB_In2_Cu.png"
+  ]
+}

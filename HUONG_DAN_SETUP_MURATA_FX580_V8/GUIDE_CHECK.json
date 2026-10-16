@@ -1,0 +1,20 @@
+{
+  "guide_for": "Murata isolated trial only",
+  "PCB_qty": 5,
+  "PCBA_qty": 2,
+  "placements": 12,
+  "stencil_qty": 1,
+  "source_files_verified": 119,
+  "production_files_unchanged": true,
+  "sources_verified_date": "2026-10-11",
+  "uploaded_or_ordered": false,
+  "HTML_has_all_6_sections": true,
+  "local_links_verified": true,
+  "remarks_prepared": true,
+  "browser_render": "Edge headless / Playwright",
+  "sections": 6,
+  "tables": 8,
+  "images_loaded": 2,
+  "desktop_and_mobile_no_horizontal_overflow": true,
+  "page_errors": []
+}

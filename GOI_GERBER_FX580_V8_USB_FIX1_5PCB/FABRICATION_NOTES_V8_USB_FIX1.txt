@@ -1,0 +1,19 @@
+FX580 V8 USB_FIX1 ENGINEERING SAMPLE - 2026-10-11
+Fabricate 5 individual bare PCBs. PCB assembly OFF. Stencil OFF.
+FR-4, 4 copper layers, 0.8 mm finished thickness. ENIG exposed pads/key contacts.
+Outline 65.100 x 132.777 mm; 8 internal routed cutouts; exact supplied Edge.Cuts.
+Layer order: F.Cu / In1.Cu / In2.Cu / B.Cu.
+Outer copper 1 oz, inner 0.5 oz; green mask, white legend.
+Reference stackup JLC04081H-7628. Whole-route USB90ohm is NOT verified.
+255 plated through vias; all round drill0.30mm; copper diameters(mm/count): {'0.5': 39, '0.6': 216}.
+4 additional plated connector slots +4 NPTH holes = 263 drilled features.
+Original4via-in-pad sites relocated;4additionalvias in USB_FIX1 are outside solderable/key pads.
+Supplied Gerbers cover all round via holes with solder mask on both sides.
+Ordinary PTH vias; no epoxy-fill/planarize/copper-cap requirement in this data.
+For ENIG process requiring plugged vias, preserve supplied mask/contact/pad geometry in factoryCAM.
+Keep all50keys/100contact regions and their ENIG openings; no factory marks on contacts.
+Separate PTH/NPTHExcellon, shared Gerber/drill origin; plated slots use G85.
+Confirm productionCAM before fabrication; do not confirm automatically.
+USB routing/ESD/GND CAD improvements completed locally; physicalUSB/ESD/fit/power tests pending.
+This engineering sample is not a hardware-qualified production release.
+SourcePCB SHA256 e93aa1bd2bf7411eaec53a455c684dbb21c05adc65eddb268d3a5f1f0bc06f77

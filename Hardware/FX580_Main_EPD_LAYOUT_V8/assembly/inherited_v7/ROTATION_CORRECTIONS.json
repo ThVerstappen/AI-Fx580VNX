@@ -1,0 +1,65 @@
+{
+  "pcb_revision": "V7_BOOST2",
+  "basis": "Preserve prior JLCONE R2 model offsets and add CAD orientation delta for 11 moved BOOST2 parts from FIX1; fresh matched preview pending.",
+  "CPL": "CPL_JLCPCB_V7_BOOST2.csv",
+  "absolute_angles_deg": {
+    "Q2": 180,
+    "Q3": 270,
+    "U4": 270,
+    "U6": 0,
+    "L2": 90,
+    "R29": 270,
+    "R30": 270,
+    "C18": 0
+  },
+  "Q3": {
+    "CAD_before": 90,
+    "CAD_after": 90,
+    "CPL_before": 270,
+    "CPL_after": 270,
+    "model_offset_CCW": 180,
+    "pin1_mm": [
+      46.35,
+      -25.4875
+    ],
+    "pin2_mm": [
+      47.65,
+      -25.4875
+    ],
+    "pin3_mm": [
+      47,
+      -23.7125
+    ]
+  },
+  "actual_JLCONE_reimport_visual_verification": "pending",
+  "previous_corrections": "../boost_fix_20261008/assembly_before_boost2/ROTATION_CORRECTIONS.json",
+  "L2": {
+    "pin1_mm": [
+      44,
+      -27.1
+    ],
+    "pin2_mm": [
+      44,
+      -24.5
+    ]
+  },
+  "diodes_native_polarity": {
+    "MPN": "MBR0530T1G",
+    "LCSC": "C82046",
+    "pin1": "K cathode",
+    "pin2": "A anode",
+    "band_TOP": {
+      "D1": "LEFT",
+      "D2": "LEFT",
+      "D3": "UP"
+    },
+    "current_CPL_deg": {
+      "D1": 0,
+      "D2": 0,
+      "D3": 270
+    },
+    "matched_part_preview": "pending; align body band with native pad1",
+    "evidence": "DIODE_POLARITY_V7_BOOST2.csv and DIODE_POLARITY_V7_BOOST2.png",
+    "review": "../diodes_20261008/D1_D3_REVIEW.md"
+  }
+}

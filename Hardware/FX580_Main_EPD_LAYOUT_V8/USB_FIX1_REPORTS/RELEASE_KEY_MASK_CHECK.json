@@ -1,0 +1,51 @@
+{
+  "canonical_sha256": "e93aa1bd2bf7411eaec53a455c684dbb21c05adc65eddb268d3a5f1f0bc06f77",
+  "new_B_tracks_screened": 10,
+  "full_copper_capsule_over_key_envelopes_mm2": 0,
+  "minimum_key_envelope_copper_gap_mm": 0.030731903015056287,
+  "B_mask_geometry_identical_to_910": true,
+  "all_exposed_B_copper_geometry_difference_mm2": 8.36136715420821e-15,
+  "key_contact_preserved_beyond_pad_attributes": true,
+  "checks": [
+    {
+      "uuid": "00978ae3-673f-4f25-9165-d3808de5c73e",
+      "key_envelope_copper_gap_mm": 1.5299971221090087
+    },
+    {
+      "uuid": "07780c94-5e05-473d-8fbf-cf02736c262e",
+      "key_envelope_copper_gap_mm": 1.9957679551846579
+    },
+    {
+      "uuid": "0f1a294b-0eab-46a0-85f6-d0fbac3d180e",
+      "key_envelope_copper_gap_mm": 1.6757256795397761
+    },
+    {
+      "uuid": "4a13be16-0eda-4ee1-b74a-688f5d1bc77d",
+      "key_envelope_copper_gap_mm": 1.850071602675207
+    },
+    {
+      "uuid": "871c6ca5-14ab-4336-8ac3-6c6de747053d",
+      "key_envelope_copper_gap_mm": 0.030731903015056287
+    },
+    {
+      "uuid": "937939a9-69e8-484e-89e4-b62389ddb0e6",
+      "key_envelope_copper_gap_mm": 0.5986127876162115
+    },
+    {
+      "uuid": "9f62c9b8-68a5-4864-a28a-b5c6df291f03",
+      "key_envelope_copper_gap_mm": 0.03229555027579299
+    },
+    {
+      "uuid": "b95efb1c-8876-4448-beb0-6722efff52a1",
+      "key_envelope_copper_gap_mm": 0.5986577317046056
+    },
+    {
+      "uuid": "de3df510-cfb3-450d-997a-28d75b2f1e10",
+      "key_envelope_copper_gap_mm": 0.5674551380971238
+    },
+    {
+      "uuid": "ed66a783-9bdf-44ee-90b9-a507c8539789",
+      "key_envelope_copper_gap_mm": 1.5299609216916477
+    }
+  ]
+}

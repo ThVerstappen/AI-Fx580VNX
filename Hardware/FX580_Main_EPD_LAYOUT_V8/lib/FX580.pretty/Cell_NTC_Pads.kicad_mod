@@ -1,0 +1,102 @@
+(footprint "Cell_NTC_Pads"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "J5"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e98a04a4-aba3-4204-b113-8d7e498caac4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "CELL NTC: TS / GND"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83561da2-4899-43f8-8e3d-6678fcb2f3e9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f6270080-e926-4d0c-a67b-e288f0974147")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd196b64-d16d-4d99-9bbb-e39d8a4aba58")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ef8757b2-78d2-4fdc-b1ab-d9e2ad30c841")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Assembly" "Hand solder insulated sensor leads"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1ac4e71a-1320-4181-83e6-fafee5709170")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Note" "Separate return to system GND; never use raw cell BAT_N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e756852f-35f5-40dc-9d57-f6b40bacf2e2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd exclude_from_pos_files)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" smd roundrect
+		(at 0 0.825 90)
+		(size 0.8 0.95)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.2)
+		(thermal_bridge_angle 45)
+		(uuid "9d5597cc-0da7-40ce-8618-708177bc0444")
+	)
+	(pad "2" smd roundrect
+		(at -0.4 -0.825 90)
+		(size 0.8 0.95)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.2)
+		(thermal_bridge_angle 45)
+		(uuid "0be6bf7c-7b19-4623-be48-8b98c3a55d19")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,74 @@
+{
+  "baseline": "Hardware\\FX580_Main_EPD_LAYOUT_V8\\usb_fix_20261010\\final_candidate_refined\\FX580_Main_EPD_LAYOUT_V8.kicad_pcb",
+  "candidate": "E:\\AI Fx580 VNX\\Hardware\\FX580_Main_EPD_LAYOUT_V8\\usb_fix_20261010\\exports_release_20261011\\source\\FX580_Main_EPD_LAYOUT_V8.kicad_pcb",
+  "candidate_sha256": "e93aa1bd2bf7411eaec53a455c684dbb21c05adc65eddb268d3a5f1f0bc06f77",
+  "original_footprints_identical_raw_vs_baseline": 132,
+  "key_footprints_identical_raw": 50,
+  "old_route_objects_identical_except_ledger": true,
+  "outline_setup_layers_unchanged": true,
+  "new_vias": [
+    {
+      "net": "GND",
+      "xy_mm": [
+        55.6,
+        54.8
+      ],
+      "tented_both": true,
+      "pad_copper_overlap": [],
+      "in_key_via_keepout": false,
+      "filled_GND_planes_at_center": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu"
+      ]
+    },
+    {
+      "net": "GND",
+      "xy_mm": [
+        55.1,
+        62.0
+      ],
+      "tented_both": true,
+      "pad_copper_overlap": [],
+      "in_key_via_keepout": false,
+      "filled_GND_planes_at_center": [
+        "F.Cu",
+        "In1.Cu",
+        "In2.Cu"
+      ]
+    },
+    {
+      "net": "/KP_COL7",
+      "xy_mm": [
+        57.0,
+        57.8
+      ],
+      "tented_both": true,
+      "pad_copper_overlap": [],
+      "in_key_via_keepout": false,
+      "filled_GND_planes_at_center": []
+    },
+    {
+      "net": "/KP_COL7",
+      "xy_mm": [
+        51.9,
+        58.15
+      ],
+      "tented_both": true,
+      "pad_copper_overlap": [],
+      "in_key_via_keepout": false,
+      "filled_GND_planes_at_center": []
+    }
+  ],
+  "B_bridge_400_intervals_avoid_all_50_key_via_envelopes": true,
+  "immutable_source_candidate_SCH_PRO_guards": {
+    "Hardware\\FX580_Main_EPD_LAYOUT_V8\\usb_fix_20261010\\final_candidate_refined\\FX580_Main_EPD_LAYOUT_V8.kicad_pcb": "910678be9a0b830d0e24e3550bcfc9aee2d80ccbf0b2e729554c64ab2605c455",
+    "E:\\AI Fx580 VNX\\Hardware\\FX580_Main_EPD_LAYOUT_V8\\usb_fix_20261010\\exports_release_20261011\\source\\FX580_Main_EPD_LAYOUT_V8.kicad_pcb": "e93aa1bd2bf7411eaec53a455c684dbb21c05adc65eddb268d3a5f1f0bc06f77",
+    "Hardware\\FX580_Main_EPD_LAYOUT_V8\\usb_fix_20261010\\final_candidate_refined\\FX580_Main_EPD_LAYOUT_V8.kicad_sch": "ee99d3e4a1b9a918ae5de7c29e8c223810441aa4a9b3986cfefdc51363b67eaa",
+    "Hardware\\FX580_Main_EPD_LAYOUT_V8\\usb_fix_20261010\\final_candidate_refined\\FX580_Main_EPD_LAYOUT_V8.kicad_pro": "ec4bf0921a5091743d0572d866287cb1acbb657c42332ae2b982302fcb21551a",
+    "E:\\AI Fx580 VNX\\Hardware\\FX580_Main_EPD_LAYOUT_V8\\usb_fix_20261010\\exports_release_20261011\\source\\FX580_Main_EPD_LAYOUT_V8.kicad_sch": "ee99d3e4a1b9a918ae5de7c29e8c223810441aa4a9b3986cfefdc51363b67eaa",
+    "E:\\AI Fx580 VNX\\Hardware\\FX580_Main_EPD_LAYOUT_V8\\usb_fix_20261010\\exports_release_20261011\\source\\FX580_Main_EPD_LAYOUT_V8.kicad_pro": "ec4bf0921a5091743d0572d866287cb1acbb657c42332ae2b982302fcb21551a"
+  },
+  "all_guard_hashes_unchanged": true,
+  "mask_note": "Native both-side via tenting asserted. Exported mask/paste verification is performed by root CAM export."
+}

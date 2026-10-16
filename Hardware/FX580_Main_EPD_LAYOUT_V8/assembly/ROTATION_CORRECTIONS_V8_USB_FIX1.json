@@ -1,0 +1,54 @@
+{
+  "pcb_revision": "V8_USB_FIX1",
+  "BOM": "BOM_JLCPCB_V8_USB_FIX1.csv",
+  "CPL": "CPL_JLCPCB_V8_USB_FIX1.csv",
+  "basis": "Existing 70 CPL rows are byte-preserved from V7 BOOST2. Existing model offsets remain applicable to unchanged native placements. C25 uses ordinary capacitor model with zero additional offset.",
+  "absolute_angles_deg": {
+    "Q2": 180,
+    "Q3": 270,
+    "U4": 270,
+    "U6": 0,
+    "L2": 90,
+    "R29": 270,
+    "R30": 270,
+    "C18": 0,
+    "C25": 270
+  },
+  "C25": {
+    "CAD_deg": 270,
+    "CPL_deg": 270,
+    "model_offset_CCW": 0,
+    "center_assembly_mm": [
+      56.6,
+      -53.8
+    ],
+    "pin1_assembly_mm": [
+      56.6,
+      -53.025
+    ],
+    "pin1_net": "/VBUS",
+    "pin2_assembly_mm": [
+      56.6,
+      -54.575
+    ],
+    "pin2_net": "GND"
+  },
+  "inherited_corrections": "inherited_v7/ROTATION_CORRECTIONS.json",
+  "inherited_pin_mapping": "inherited_v7/PIN_MAPPING_V7_BOOST2.csv",
+  "inherited_pin1_image": "inherited_v7/PIN1_MAP_V7_BOOST2.png",
+  "C25_pin_mapping": "C25_PIN_MAPPING_V8_USB_FIX1.csv",
+  "diodes": {
+    "data": "inherited_v7/DIODE_POLARITY_V7_BOOST2.csv",
+    "image": "inherited_v7/DIODE_POLARITY_V7_BOOST2.png",
+    "cathode_band_TOP": {
+      "D1": "LEFT",
+      "D2": "LEFT",
+      "D3": "UP"
+    },
+    "MPN": "MBR0530T1G",
+    "LCSC": "C82046"
+  },
+  "actual_matched_part_factory_preview": "pending; historical image is CAD evidence, not a new factory preview",
+  "historical_file_revision_labels": "Preserved as V7 BOOST2. These files cover unchanged original parts and do not include C25.",
+  "native_geometry_scope": "Root final PCB scope check must confirm unchanged existing component/pad positions and nets."
+}

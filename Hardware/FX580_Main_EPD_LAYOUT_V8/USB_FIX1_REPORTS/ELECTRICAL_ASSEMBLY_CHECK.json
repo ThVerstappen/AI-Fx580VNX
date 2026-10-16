@@ -1,0 +1,93 @@
+{
+  "source_sha256": "e93aa1bd2bf7411eaec53a455c684dbb21c05adc65eddb268d3a5f1f0bc06f77",
+  "schematic_components": 133,
+  "prior_components_identical": 132,
+  "prior_pin_net_entries_identical": 424,
+  "only_new_pin_net_entries": [
+    [
+      "C25",
+      "1",
+      "/VBUS"
+    ],
+    [
+      "C25",
+      "2",
+      "GND"
+    ]
+  ],
+  "native_pad_netlist_parity": true,
+  "C25": {
+    "value": "100nF",
+    "path": "/8eda5bf6-476b-544b-b807-361a8dc7232f/60363d38-eed0-4b4e-b2d7-bc9ef9ebd90c",
+    "xy_mm": [
+      56.6,
+      53.8
+    ],
+    "rotation": 270,
+    "pads": [
+      {
+        "pad": "1",
+        "net": "/VBUS",
+        "xy_mm": [
+          56.6,
+          53.025
+        ]
+      },
+      {
+        "pad": "2",
+        "net": "GND",
+        "xy_mm": [
+          56.6,
+          54.575
+        ]
+      }
+    ],
+    "U6_VBUS_to_C25_centerline_mm": 5.238664607118176,
+    "GND_track_to_local_via_mm": 1.0249999999999988
+  },
+  "USB_paths": [
+    {
+      "net": "/USB_DM",
+      "physical_signal_vias": 4,
+      "MCU_centerline_mm": 5.270148726595776,
+      "total_paths": [
+        {
+          "connector_pin": "A7",
+          "centerline_mm": 43.36798102185056
+        },
+        {
+          "connector_pin": "B7",
+          "centerline_mm": 42.66798102185056
+        }
+      ],
+      "limitation": "Shortest geometry centerline excludes resistor body and viaZ; not timing skew or impedance."
+    },
+    {
+      "net": "/USB_DP",
+      "physical_signal_vias": 3,
+      "MCU_centerline_mm": 5.360807623978017,
+      "total_paths": [
+        {
+          "connector_pin": "A6",
+          "centerline_mm": 44.579604622276385
+        },
+        {
+          "connector_pin": "B6",
+          "centerline_mm": 41.62760462227638
+        }
+      ],
+      "limitation": "Shortest geometry centerline excludes resistor body and viaZ; not timing skew or impedance."
+    }
+  ],
+  "via_count": 255,
+  "via_copper_diameter_mm_distribution": {
+    "0.6": 216,
+    "0.5": 39
+  },
+  "all_vias_drill0_3_tented_both": true,
+  "BOM_groups": 35,
+  "BOM_parts_per_board": 71,
+  "CPL_top_parts": 71,
+  "existing_housing_and_model_rotation_corrections_preserved": true,
+  "no_physical_measurements": true
+}

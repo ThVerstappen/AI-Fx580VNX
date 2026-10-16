@@ -1,0 +1,28 @@
+{
+  "source_export": "E:\\AI Fx580 VNX\\Hardware\\FX580_Main_EPD_LAYOUT_V8\\usb_fix_20261010\\exports_release_20261011",
+  "active_project": "E:\\AI Fx580 VNX\\Hardware\\FX580_Main_EPD_LAYOUT_V8\\FX580_Main_EPD_LAYOUT_V8.kicad_pro",
+  "source_hashes": {
+    ".kicad_pcb": "e93aa1bd2bf7411eaec53a455c684dbb21c05adc65eddb268d3a5f1f0bc06f77",
+    ".kicad_sch": "ee99d3e4a1b9a918ae5de7c29e8c223810441aa4a9b3986cfefdc51363b67eaa",
+    ".kicad_pro": "ec4bf0921a5091743d0572d866287cb1acbb657c42332ae2b982302fcb21551a"
+  },
+  "before_root_files_verified": 82,
+  "checkpoint_crc_member_hash_passed": true,
+  "active_assembly_pending": false,
+  "active_assembly": {
+    "BOM_JLCPCB_V8_USB_FIX1.csv": "3f3951c32f453268f416b5a892aec2036b19c1da65c2a26e35af50cadb1f00ff",
+    "CPL_JLCPCB_V8_USB_FIX1.csv": "7b6acdaf8f257cb0c66f3a77a3222b59390973d6bf42022adecdf68257a42614",
+    "parts_per_board": 71,
+    "BOM_groups": 35,
+    "CPL_Top_rows": 71,
+    "old_assembly_checkpoint": "E:\\AI Fx580 VNX\\Hardware\\FX580_Main_EPD_LAYOUT_V8\\usb_fix_20261010\\assembly_before_usb"
+  },
+  "visually_reviewed_final_CAM_layers": [
+    "front",
+    "keyface",
+    "In1",
+    "In2",
+    "USB_F_Cu",
+    "native_MCU_GND"
+  ]
+}

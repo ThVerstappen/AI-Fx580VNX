@@ -1,0 +1,24 @@
+{
+  "revision": "V8 USB_FIX1",
+  "assembly_board_quantity": 2,
+  "assembly_scope": [
+    "J4",
+    "L1",
+    "L2",
+    "Q3",
+    "U2",
+    "U3"
+  ],
+  "parts_per_board": 6,
+  "total_placements": 12,
+  "BOM_quantity_basis": "one physical PCB; each of six rows Quantity=1",
+  "CPL_coordinate_basis": "one physical PCB; do not duplicate rows for second board",
+  "populate_all_six_positions_on_each_of_two_boards": true,
+  "other_65_BOM_parts_per_board": "Do not assemble under this partial assembly scope; user handles separately.",
+  "exact_manufacturer_and_MPN_required": true,
+  "substitution": "No substitute authorized by this package; request user decision if exact part unavailable.",
+  "Gerber_path": "E:\\AI Fx580 VNX\\GOI_GERBER_FX580_V8_USB_FIX1_5PCB\\FX580_V8_USB_FIX1_GERBER.zip",
+  "Gerber_sha256": "b039c28f045806c5d328b72e4b0b51860ec67c10880f7635cf2fb1745c4a5aa3",
+  "factory_preview": "Check matched-part pin1, rotation and connector orientation against current CAD before production.",
+  "external_order_submitted": false
+}

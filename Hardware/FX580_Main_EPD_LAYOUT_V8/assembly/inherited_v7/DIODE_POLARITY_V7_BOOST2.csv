@@ -1,0 +1,4 @@
+﻿Reference,MPN,LCSC,Cathode_pad,Cathode_net,Cathode_X_mm,Cathode_Y_mm,Anode_pad,Anode_net,Anode_X_mm,Anode_Y_mm,Cathode_band_TOP,CPL_deg,Model_preview
+D1,MBR0530T1G,C82046,1,GND,33.85,-23.7,2,/EPD_PUMP,37.15,-23.7,LEFT,0,PENDING: align cathode band with native pad1; angle alone is not approval
+D2,MBR0530T1G,C82046,1,/EPD_PUMP,35.35,-28.3,2,/EPD_PREVGL,38.65,-28.3,LEFT,0,PENDING: align cathode band with native pad1; angle alone is not approval
+D3,MBR0530T1G,C82046,1,/EPD_PREVGH,47.5,-19.1,2,/EPD_SW,47.5,-22.4,UP,270,PENDING: align cathode band with native pad1; angle alone is not approval

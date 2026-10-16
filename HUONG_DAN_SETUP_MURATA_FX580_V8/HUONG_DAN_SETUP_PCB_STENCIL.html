@@ -1,0 +1,506 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FX580 V8 Murata — Hướng dẫn setup PCB và stencil</title><style>*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#eef2f6;color:#18293c;font:16px/1.65 "Segoe UI",Arial,sans-serif}nav{position:sticky;top:0;background:#152e43;display:flex;gap:6px;flex-wrap:wrap;align-items:center;padding:10px max(16px,calc((100vw - 1080px)/2));z-index:1}nav a{color:#e5f3fb;text-decoration:none;padding:6px 12px;border-radius:5px}nav a:hover{background:#2c4b60}nav button{margin-left:auto;padding:8px 14px;border:0;border-radius:5px;cursor:pointer;font-weight:600;color:#173346;background:#bde8dc}main{max-width:1080px;margin:26px auto 50px;padding:30px 44px;background:#fff;border:1px solid #d8e2ea;border-radius:10px;box-shadow:0 6px 25px #152e4310}h1{font-size:32px;line-height:1.3;letter-spacing:-.5px;color:#143c55;margin:8px 0 14px}h2{font-size:24px;border-top:2px solid #dce8ee;padding-top:26px;margin-top:36px;scroll-margin-top:70px}h3{font-size:18px;color:#20566b;margin-top:28px}a{color:#126a91;overflow-wrap:anywhere}p,li{overflow-wrap:anywhere}li{margin:5px 0}table{border-collapse:collapse;width:100%;margin:18px 0 24px;font-size:14px;table-layout:auto}th,td{text-align:left;padding:10px 12px;border:1px solid #dce4eb;vertical-align:top;overflow-wrap:anywhere}th{background:#e6f1f4;color:#183a4b;font-weight:650}tr:nth-child(even) td{background:#f8fafc}code{font:13px/1.5 Consolas,monospace;background:#edf3f5;padding:2px 4px;overflow-wrap:anywhere}pre{background:#f3f6f8;border-left:4px solid #26837b;padding:18px;white-space:pre-wrap;overflow-wrap:anywhere;word-break:normal;margin:20px 0}pre code{padding:0;background:none;font:13px/1.65 Consolas,monospace}img{display:block;max-width:100%;max-height:720px;width:auto;margin:22px auto;border-radius:6px;border:1px solid #d9e1e8}footer{border-top:1px solid #d9e1e8;padding-top:15px;margin-top:30px;font-size:13px;color:#5c7182}@media(max-width:700px){main{margin:12px 0;border-radius:0;padding:20px 15px}h1{font-size:26px}table{font-size:12px}td,th{padding:7px}nav a{padding:4px 7px;font-size:13px}}@media print{@page{size:A4;margin:14mm}body{background:#fff;font-size:10pt;line-height:1.5}nav{display:none}main{margin:0;padding:0;border:0;box-shadow:none;max-width:none}h1{font-size:21pt}h2{font-size:16pt;break-after:avoid}h3{break-after:avoid}table{font-size:9pt}th,td{padding:5px 7px}thead{display:table-header-group}tr{break-inside:avoid}pre{font-size:8pt;break-inside:auto}pre code{font-size:8pt}img{max-height:160mm;break-inside:avoid}a{color:#173b50;text-decoration:none}code{font-size:8pt}footer{font-size:8pt}}</style></head><body><nav><a href="#section-1">Tệp upload</a><a href="#section-2">PCB</a><a href="#section-3">Lắp 2 bo</a><a href="#section-4">Stencil65</a><a href="#section-5">Kiểm cuối</a><a href="#section-6">Nhận diện</a><button onclick="window.print()">In / Lưu PDF</button></nav><main><h1>Hướng dẫn setup PCB &amp; stencil — FX580 V8 Murata</h1>
+<p><strong>5 PCB · lắp 6 linh kiện trên 2 bo · 1 stencil tự hàn 65 linh kiện</strong></p>
+<p>Bản hướng dẫn ngày 11/10/2026 dùng cho <strong>bản thử Murata LQH44PH470MPRL, cao tối đa 1,8 mm</strong> đã chuẩn bị. Quote JLCONE hiện còn bản USB_FIX1 cũ; cần thay đúng bộ tệp dưới đây khi dùng bản thử. Hướng dẫn này chưa thực hiện upload hay đặt hàng.</p>
+<p>Thông số là yêu cầu của dự án; tên mục lấy theo form JLCONE đã quan sát và tài liệu JLCPCB kiểm lại ngày 11/10/2026. Nếu tên mục đổi, chọn giá trị tương ứng và đọc lại trước lưu. Cấu hình main USB_FIX1 với L2 TDK không dùng chung bộ tệp Murata.</p>
+<h2 id="section-1">1. Chuẩn bị đúng tệp</h2>
+<p>Giải nén <a href="../GOI_THU_MURATA_FX580_V8_5PCB_2PCBA.zip">gói tổng bản thử Murata</a> trước; khi form yêu cầu upload, chọn từng tệp dưới đây. <strong>Không nạp ZIP tổng vào Add Gerber.</strong></p>
+<table>
+<thead>
+<tr>
+<th>Mục nạp</th>
+<th>Tệp đúng cho bản thử</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PCB / Add Gerber</td>
+<td><a href="../GOI_THU_MURATA_FX580_V8_5PCB_2PCBA/FX580_V8_MURATA_TRIAL_GERBER.zip">FX580_V8_MURATA_TRIAL_GERBER.zip</a></td>
+</tr>
+<tr>
+<td>PCBA / BOM</td>
+<td><a href="../GOI_THU_MURATA_FX580_V8_5PCB_2PCBA/assembly/BOM_FACTORY_6PARTS.csv">BOM_FACTORY_6PARTS.csv</a></td>
+</tr>
+<tr>
+<td>PCBA / CPL</td>
+<td><a href="../GOI_THU_MURATA_FX580_V8_5PCB_2PCBA/assembly/CPL_FACTORY_6PARTS.csv">CPL_FACTORY_6PARTS.csv</a></td>
+</tr>
+<tr>
+<td>SMT Stencil / Add Gerber</td>
+<td><a href="../GOI_THU_MURATA_FX580_V8_5PCB_2PCBA/FX580_V8_MURATA_TRIAL_STENCIL65.zip">FX580_V8_MURATA_TRIAL_STENCIL65.zip</a></td>
+</tr>
+</tbody>
+</table>
+<p><code>BOM_FULL_71.csv</code> và <code>CPL_FULL_71.csv</code> để tra cứu đủ 71 linh kiện; dùng hai CSV <strong>FACTORY_6PARTS</strong> cho lắp xưởng. Folder <code>factory_stencil_reference</code> dành đối chiếu stencil nội bộ của xưởng cho 6 linh kiện; stencil tự hàn cần nạp ZIP <strong>STENCIL65</strong>.</p>
+<h2 id="section-2">2. Setup PCB</h2>
+<ol>
+<li>Vào <strong>PCB / Standard PCB-PCBA</strong>, chọn Add Gerber và nạp <code>FX580_V8_MURATA_TRIAL_GERBER.zip</code>.</li>
+<li>Đợi parse xong. Kiểm 4 lớp, kích thước bo đơn <strong>65,1 × 132,78 mm</strong>, hình hai mặt; đặt tên quote <strong>FX580_V8_MURATA_TRIAL</strong> nếu có ô tên.</li>
+<li>Chọn các giá trị trong bảng. Ở Layer Sequence và Layer Stackup, mở modal, chọn đúng rồi <strong>Confirm</strong>.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Tên mục trên form</th>
+<th>Giá trị cần chọn</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Base Material</td>
+<td>FR-4 / FR4 TG135</td>
+</tr>
+<tr>
+<td>Layers</td>
+<td>4</td>
+</tr>
+<tr>
+<td>PCB Quantity</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Different Designs</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Delivery Format</td>
+<td>Single PCB</td>
+</tr>
+<tr>
+<td>PCB Thickness</td>
+<td>0.8 mm</td>
+</tr>
+<tr>
+<td>Dimensions — bo đơn</td>
+<td>65.1 × 132.777 mm (UI có thể làm tròn 132.78)</td>
+</tr>
+<tr>
+<td>PCB Color / Silkscreen</td>
+<td>Green / White</td>
+</tr>
+<tr>
+<td>Surface Finish</td>
+<td>ENIG, gold thickness 1 µin</td>
+</tr>
+<tr>
+<td>Outer Copper Weight</td>
+<td>1 oz</td>
+</tr>
+<tr>
+<td>Inner Copper Weight</td>
+<td>0.5 oz</td>
+</tr>
+<tr>
+<td>Layer Sequence</td>
+<td>L1 F_Cu.gtl → L2 In1_Cu.g1 → L3 In2_Cu.g2 → L4 B_Cu.gbl</td>
+</tr>
+<tr>
+<td>Layer Stackup</td>
+<td>JLC04081H-7628; chọn và Confirm</td>
+</tr>
+<tr>
+<td>Impedance</td>
+<td>No Requirement</td>
+</tr>
+<tr>
+<td>Via Covering</td>
+<td>Plugged</td>
+</tr>
+<tr>
+<td>Min Via Hole</td>
+<td>0.3 mm (chọn nhóm tương ứng 0.3 mm / 0.4–0.45 mm nếu UI ghi như vậy)</td>
+</tr>
+<tr>
+<td>Plating</td>
+<td>Not Specified</td>
+</tr>
+<tr>
+<td>Outline Tolerance</td>
+<td>±0.2 mm / Regular</td>
+</tr>
+<tr>
+<td>Mark on PCB</td>
+<td>Remove Mark</td>
+</tr>
+<tr>
+<td>Electrical Test — PCB</td>
+<td>Flying Probe Fully Test</td>
+</tr>
+<tr>
+<td>Gold Fingers / Castellated Holes / Press-fit / Edge Plating / Blind Slots / UL / Backdrill</td>
+<td>No / không bật</td>
+</tr>
+<tr>
+<td>Confirm Production File</td>
+<td>Yes; tick Do not confirm automatically rồi Confirm</td>
+</tr>
+<tr>
+<td>Separate Stencil trên form PCB</td>
+<td>Off; stencil65 được đặt trong SMT Stencil riêng</td>
+</tr>
+</tbody>
+</table>
+<p>Tên Gerber bên trong ZIP vẫn có prefix <code>FX580_Main_EPD_LAYOUT_V8</code>. Chọn layer theo suffix <code>F_Cu.gtl / In1_Cu.g1 / In2_Cu.g2 / B_Cu.gbl</code>, không đổi thứ tự hai lớp trong. Bản PCB thuần có 9 Gerber, 2 drill và 1 job; paste tham chiếu xưởng nằm riêng trong <code>factory_stencil_reference</code>.</p>
+<p>Sau khi bật PCBA và thêm rail 5 mm mỗi bên, UI có thể hiện kích thước tính phí <strong>75,1 × 132,78 mm</strong> như quote trước. Kích thước thành phẩm vẫn là bo đơn 65,1 × 132,78 mm sau tách rail. Giữ yêu cầu tách rail trước giao.</p>
+<h2 id="section-3">3. Setup PCBA — lắp đủ 2 bo</h2>
+<table>
+<thead>
+<tr>
+<th>Tên mục trên form</th>
+<th>Giá trị cần chọn</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PCB Assembly</td>
+<td>On</td>
+</tr>
+<tr>
+<td>Assembly Type</td>
+<td>Standard</td>
+</tr>
+<tr>
+<td>Assembly Side</td>
+<td>Top Side</td>
+</tr>
+<tr>
+<td>PCBA Quantity</td>
+<td>Custom Qty = 2</td>
+</tr>
+<tr>
+<td>Parts Selection</td>
+<td>By Customer / Self-Service</td>
+</tr>
+<tr>
+<td>Rails / Fiducials</td>
+<td>Added by JLCPCB</td>
+</tr>
+<tr>
+<td>Depanel boards &amp; edge rail before delivery</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Confirm Parts Placement</td>
+<td>Yes; tick Do not confirm automatically rồi Confirm</td>
+</tr>
+<tr>
+<td>Stencil Storage / Fixture Storage</td>
+<td>No / No</td>
+</tr>
+<tr>
+<td>Solder Paste</td>
+<td>High temp.</td>
+</tr>
+<tr>
+<td>Packaging</td>
+<td>Antistatic bubble film</td>
+</tr>
+<tr>
+<td>Bake / Photo / Cleaning / Coating / Special Stencil / PCBA Flying Probe / Function Test / Nitrogen Reflow</td>
+<td>No theo cấu hình đã chuẩn bị</td>
+</tr>
+</tbody>
+</table>
+<p><strong>PCB Quantity = 5; PCBA Quantity = 2.</strong> Kết quả yêu cầu là 2 bo được lắp 6 linh kiện và 3 bo trống. Mỗi bo lắp đủ J4/L1/L2/Q3/U2/U3; tổng <strong>12 vị trí</strong>. Phần còn lại người dùng tự hàn.</p>
+<h3>Nạp BOM/CPL và match mã</h3>
+<ol>
+<li>Bấm Next đến Bill of Materials. Nạp <code>BOM_FACTORY_6PARTS.csv</code> và <code>CPL_FACTORY_6PARTS.csv</code>, rồi Process BOM &amp; CPL.</li>
+<li>Phải nhận <strong>6 dòng</strong>; kiểm từng mã trong bảng dưới. Chỉ chốt bước match khi đủ 6 mã được chọn/xác nhận và không còn shortage. Nếu UI dùng bộ đếm Detected/Confirmed, kỳ vọng 6/6.</li>
+<li>Kiểm tooltip để đọc Part Qty Per PCB = 1 và PCBA Qty = 2. Số lượng mua có thể lớn hơn 2 vì hao hụt/MOQ; số đó không có nghĩa là lắp nhiều hơn 2 bo.</li>
+<li>L2 phải là <strong>C1857945</strong>, không phải TDK C3220812. Kiểm tồn kho mới: 5 chiếc được quan sát trước đó chưa được giữ hàng. Nếu thiếu, giữ nguyên thiết kế/mã và xử lý nguồn hàng trước khi tiếp tục; không chọn Do not place để bỏ vị trí cần lắp.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Ref</th>
+<th>Mã hãng phải khớp</th>
+<th>LCSC</th>
+<th>Mỗi bo</th>
+<th>2 bo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>J4</td>
+<td>FH12-24S-0.5SH(55)</td>
+<td>C202112</td>
+<td>1</td>
+<td>2</td>
+</tr>
+<tr>
+<td>L1</td>
+<td>DFE252012F-R47M=P2</td>
+<td>C703140</td>
+<td>1</td>
+<td>2</td>
+</tr>
+<tr>
+<td>L2</td>
+<td>LQH44PH470MPRL</td>
+<td>C1857945</td>
+<td>1</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Q3</td>
+<td>SI1308EDL-T1-GE3</td>
+<td>C469327</td>
+<td>1</td>
+<td>2</td>
+</tr>
+<tr>
+<td>U2</td>
+<td>BQ24074RGTR</td>
+<td>C54313</td>
+<td>1</td>
+<td>2</td>
+</tr>
+<tr>
+<td>U3</td>
+<td>TPS63802DLAR</td>
+<td>C2845237</td>
+<td>1</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+<p>JLCPCB khuyến nghị BOM/CPL phải khớp reference designator và đối chiếu chi tiết mã khi match. <a href="https://jlcpcb.com/help/article/advice-for-bom-and-cpl-files-preparation">Hướng dẫn BOM/CPL chính thức</a>.</p>
+<h3>Kiểm Component Placements</h3>
+<p>CPL dùng đơn vị mm theo Aux Origin, y lên, tất cả Top. Bảng dưới là số liệu của file đã chuẩn bị; không tự đổi dấu Y hoặc đưa góc Q3 về góc native của KiCad. Kiểm ảnh part model theo chân thực vì mỗi thư viện xưởng có cách đặt góc riêng. <a href="https://jlcpcb.com/help/article/pick-place-file-for-pcb-assembly">Quy cách CPL chính thức</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Ref</th>
+<th>X (mm)</th>
+<th>Y (mm)</th>
+<th>Layer</th>
+<th>Góc CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>J4</td>
+<td>61.6</td>
+<td>-16.5</td>
+<td>Top</td>
+<td>90.0°</td>
+</tr>
+<tr>
+<td>L1</td>
+<td>51.0</td>
+<td>-62.0</td>
+<td>Top</td>
+<td>90.0°</td>
+</tr>
+<tr>
+<td>L2</td>
+<td>43.25</td>
+<td>-25.65</td>
+<td>Top</td>
+<td>90.0°</td>
+</tr>
+<tr>
+<td>Q3</td>
+<td>47.0</td>
+<td>-24.6</td>
+<td>Top</td>
+<td>270.0°</td>
+</tr>
+<tr>
+<td>U2</td>
+<td>50.0</td>
+<td>-51.0</td>
+<td>Top</td>
+<td>0.0°</td>
+</tr>
+<tr>
+<td>U3</td>
+<td>48.0</td>
+<td>-62.0</td>
+<td>Top</td>
+<td>0.0°</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>L2 ở tâm <strong>(43,25; −25,65)</strong>, trên hai pad hình thang. Thân 4 × 4 mm; không phủ sang Q3 hoặc tụ/trở quanh nó.</li>
+<li>Q3 giữ tâm <strong>(47; −24,6)</strong>, CPL <strong>270°</strong>; đối chiếu chân 1 và các net thực.</li>
+<li>J4 giữ tọa độ tâm housing đã hiệu chỉnh; kiểm phía miệng cắm FPC và hàng chân đúng CAD. Không dịch lại theo tâm origin footprint.</li>
+<li>U2/U3 kiểm chân 1, pad thermal và chiều package; L1 đúng footprint/mã.</li>
+<li>Chỉ 6 reference được lắp. 65 linh kiện tự hàn không xuất hiện trong scope xưởng.</li>
+</ul>
+<p><img src="assets/L2_MURATA_LOCAL_CAM.png" alt="Vùng L2 Murata: render từ Gerber thực, viền cam là thân L2 danh định" /></p>
+<p>Hình này là đối chiếu local CAM; phải kiểm lại preview sau khi xưởng match part và panelize, không dùng hình để tự xác nhận pin1 của mọi thư viện xưởng.</p>
+<h3>Remark PCBA để sao chép</h3>
+<p>Dán vào Assembly Remark nếu có. Có thể đính kèm <a href="PCBA_REMARK_EN.txt">PCBA_REMARK_EN.txt</a> qua kênh lưu yêu cầu của đơn cùng CAD/ảnh đối chiếu khi cần.</p>
+<pre><code class="language-text">ISOLATED FX580 V8 MURATA TRIAL. Manufacture 5 PCBs; assemble exactly 2 PCBs on Top side. Populate ALL SIX positions J4, L1, L2, Q3, U2 and U3 on EACH assembled PCB (12 placements total). BOM and CPL are for one single PCB; do not duplicate rows for the second board. L2 MUST be Murata LQH44PH470MPRL / C1857945 with the new trapezoid-pad footprint in the supplied trial Gerber. U2 MUST be TI BQ24074RGTR / C54313; U3 MUST be TI TPS63802DLAR / C2845237. Match all six exact MPNs to the supplied BOM. No further substitutions or omitted positions. The other 65 components are not included in factory assembly. Add assembly rails/fiducials as needed, then depanel and remove rails before delivery. Please provide PCB production CAM and matched-part placement preview for customer approval; do not auto-confirm. Verify J4 housing/contact orientation, Q3 pin1 and all IC pin1 locations against the supplied CAD. The factory_stencil_reference folder contains paste for these six parts only; it is not the separate manual rework stencil.
+</code></pre>
+<p>Nếu form có toggle Assembly Remark, chọn <strong>Yes</strong> để nhập đoạn này. Sau khi xong, đọc lại <strong>Standard / Top / CustomQty2 / DepanelYes / ConfirmPlacementYes</strong> trước lưu quote.</p>
+<h2 id="section-4">4. Setup stencil tự hàn 65 linh kiện</h2>
+<p>Tạo mục <strong>SMT Stencil độc lập</strong> và upload <code>FX580_V8_MURATA_TRIAL_STENCIL65.zip</code>. JLCPCB hỗ trợ đặt stencil riêng và làm theo tệp đã nạp cho mục stencil. <a href="https://jlcpcb.com/help/article/how-to-order-a-stencil">Cách đặt stencil chính thức</a>.</p>
+<p>Trong JLCONE trước đó, bật stencil trên form PCB đã làm PCBA tắt; vì vậy giữ stencil đi kèm PCB <strong>Off</strong>, dùng SMT Stencil riêng. Sau đổi tab, kiểm quote PCB còn đúng thiết lập hoặc khôi phục từ mục 2–3.</p>
+<table>
+<thead>
+<tr>
+<th>Tên mục trên form</th>
+<th>Giá trị cần chọn</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mục đặt hàng</td>
+<td>SMT Stencil riêng</td>
+</tr>
+<tr>
+<td>Stencil Type</td>
+<td>Solder Paste Stencil</td>
+</tr>
+<tr>
+<td>Framework / Frame</td>
+<td>No / Frameless</td>
+</tr>
+<tr>
+<td>Stencil Side</td>
+<td>Top Only</td>
+</tr>
+<tr>
+<td>Customized Size</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Custom Size X / Y</td>
+<td>100 / 170 mm</td>
+</tr>
+<tr>
+<td>Quantity</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Thickness</td>
+<td>Customer Thickness = 0.12 mm</td>
+</tr>
+<tr>
+<td>Apertures</td>
+<td>1:1 as per paste layer</td>
+</tr>
+<tr>
+<td>Multiple PCBs / Designs</td>
+<td>No; một thiết kế bo đơn</td>
+</tr>
+<tr>
+<td>Step Stencil</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Nano Coating</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Surface Treatment</td>
+<td>Sanding</td>
+</tr>
+<tr>
+<td>Fiducials</td>
+<td>No Fiducial</td>
+</tr>
+<tr>
+<td>Engraving</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Confirm Production File</td>
+<td>Yes; tick Do not confirm automatically rồi Confirm</td>
+</tr>
+</tbody>
+</table>
+<p>Nếu UI yêu cầu chọn kích thước mẫu trước Custom Size, chọn mẫu có vùng chế tạo chứa được 100 × 170 mm. Theo hướng dẫn JLCPCB, mẫu 380 × 280 mm có vùng hiệu dụng 290 × 190 mm; tấm cắt cuối vẫn đặt <strong>100 × 170 mm</strong>. Căn bo giữa tấm, chiều dài bo dọc theo cạnh 170 mm. <a href="https://jlcpcb.com/help/article/how-to-order-a-stencil">Hướng dẫn kích thước stencil</a>.</p>
+<p>JLCPCB có xử lý aperture mặc định; bản này yêu cầu <strong>1:1 theo F.Paste đã cung cấp</strong> và ghi remark để giữ các cửa tránh thân. <a href="https://jlcpcb.com/help/article/instructions-for-stencil-order">Quy định aperture và độ dày</a>.</p>
+<h3>Kiểm CAM của stencil</h3>
+<p><strong>263 hình paste cho 65 linh kiện = 25 tụ + 29 trở + 11 linh kiện khác.</strong> Bỏ 63 hình paste của 6 linh kiện xưởng; thêm <strong>5 cửa lớn</strong>: J4, L1, L2+Q3, U2, U3.</p>
+<ul>
+<li>5 cửa lớn là lỗ tránh thân lắp sẵn, không phải vị trí in kem; giữ đúng cửa L2/Q3 mới của bản Murata.</li>
+<li>Không mở lại paste cho 6 linh kiện đã giao xưởng, không tạo aperture ở mặt Bottom/keypad.</li>
+<li>ZIP stencil chỉ có F.Paste + Edge.Cuts. Edge.Cuts là biên bo tham chiếu; biên tấm stencil phải là <strong>100 × 170 mm</strong>, không cắt tấm theo biên bo.</li>
+<li>Khoảng cửa/paste nhỏ nhất local <strong>0,175 mm</strong>; yêu cầu xưởng kiểm cầu thép, kích thước thân/mối hàn thực và gửi CAM trước chế tạo. Nếu cần đổi aperture/cửa, xem lại CAM rồi mới chốt.</li>
+</ul>
+<p><img src="assets/STENCIL_REVIEW.png" alt="Stencil65: trắng là paste, cam là 5 cửa tránh thân" /></p>
+<h3>Remark stencil để sao chép</h3>
+<p>Dán đoạn này vào <strong>Stencil Remark</strong> hoặc đính kèm <a href="STENCIL_REMARK_EN.txt">STENCIL_REMARK_EN.txt</a> với mục stencil.</p>
+<pre><code class="language-text">Manual rework stencil for the ISOLATED V8 MURATA TRIAL, single depanelled PCB, Top only, frameless, 0.12mm, 100 x 170mm, quantity 1. Centre board in sheet. Supplied F.Paste has 263 paste features for 65 unassembled parts and FIVE LARGE COMPONENT CLEARANCE CUTOUTS for installed J4, L1, L2+Q3, U2, U3. The five large windows are body clearance, NOT paste deposits: laser cut as supplied, do not restore pad patterns, reduce or split them. No bottom/keypad apertures. Do not use for factory PCBA stencil. Please provide CAM for approval and check narrow steel bridges and actual installed component body/solder clearance. Use single-board coordinates without assembly rails. Follow the supplied paste layer exactly at 1:1; do not apply default aperture resizing. Edge.Cuts is PCB outline reference only, NOT the final stencil sheet cutting outline. Align the long PCB side with the 170mm sheet direction. Minimum local clearance-window-to-paste bridge is approximately 0.175mm; please review mechanical strength and actual body/solder clearance and return CAM before fabrication.
+</code></pre>
+<h3>Dùng stencil sau khi nhận bo</h3>
+<p>Dùng 1 tấm lần lượt cho 2 bo đã tách rail. Đặt cho thân linh kiện lắp sẵn đi qua 5 cửa, kiểm stencil áp sát các vùng paste. Che cửa từ phía trên và quét từng vùng bằng dụng cụ nhỏ tránh thân nhô; vùng không áp sát hoặc không quét được cần chấm kem tay. Không quét một đường toàn bo qua linh kiện đã lắp.</p>
+<h2 id="section-5">5. Đọc lại trước chốt đơn</h2>
+<table>
+<thead>
+<tr>
+<th>Kiểm</th>
+<th>Kết quả phải có</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>☐ Revision</td>
+<td>Gerber, BOM, CPL và stencil đều là <strong>MURATA_TRIAL</strong></td>
+</tr>
+<tr>
+<td>☐ PCB</td>
+<td>5 chiếc / 4 lớp / 0,8 mm / ENIG / đúng sequence + stackup</td>
+</tr>
+<tr>
+<td>☐ Lắp</td>
+<td>Standard / Top / <strong>2 bo</strong> / 6 refs mỗi bo / 12 placements</td>
+</tr>
+<tr>
+<td>☐ Match</td>
+<td>Đủ 6 mã, L2 C1857945, U2 C54313, U3 C2845237; không bỏ vị trí</td>
+</tr>
+<tr>
+<td>☐ Hình lắp</td>
+<td>J4 housing, Q3 chân1, U2/U3 chân1 và L2 footprint đúng</td>
+</tr>
+<tr>
+<td>☐ Giao bo</td>
+<td>Depanel &amp; remove rails = Yes</td>
+</tr>
+<tr>
+<td>☐ Stencil</td>
+<td>Mục riêng / Top / không khung / 100 × 170 / 0,12 mm / Qty1</td>
+</tr>
+<tr>
+<td>☐ Hình stencil</td>
+<td>263 paste + 5 cửa tránh / xưởng kiểm cầu thép và thân thực</td>
+</tr>
+<tr>
+<td>☐ Duyệt</td>
+<td>Production File và Parts Placement cần duyệt, không auto-confirm</td>
+</tr>
+<tr>
+<td>☐ Giá</td>
+<td>Đọc tổng mới gồm linh kiện + feeder + SMT + PCB + stencil + vận chuyển</td>
+</tr>
+</tbody>
+</table>
+<p>Giá quote cũ <strong>49,95 USD</strong> và stencil cũ <strong>7,22 USD</strong> chỉ là số quan sát trước đây; không dùng làm tổng đơn mới. Hướng dẫn không bảo đảm tồn kho hay lịch giao hiện tại.</p>
+<p>Bản thử đã qua ERC/DRC theo cấu hình dự án và kiểm Gerber độc lập; <strong>chưa đo boost/nhiệt và chưa kiểm vỏ thực với H1,8 mm</strong>. Cần các phép kiểm đó trước khi coi thiết kế được xác nhận trên phần cứng. Factory CAM cũng chưa được duyệt.</p>
+<h2 id="section-6">6. Nhận diện tệp và tài liệu</h2>
+<table>
+<thead>
+<tr>
+<th>Tệp</th>
+<th>SHA-256 đã kiểm</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PCB ZIP</td>
+<td><code>532fa5c65752247b3a53d38e51cdf6ca6c8f0c951b6fe0eed688836b55384155</code></td>
+</tr>
+<tr>
+<td>Stencil65 ZIP</td>
+<td><code>8719f42c93a6df2554fb5be6a62f846cfba8b7c97e47d1ed207b3a8fa7aa17b3</code></td>
+</tr>
+</tbody>
+</table>
+<p><a href="../GOI_THU_MURATA_FX580_V8_5PCB_2PCBA/README.md">README bản thử</a> · <a href="../GOI_THU_MURATA_FX580_V8_5PCB_2PCBA/ASSEMBLY_ORDER_2BO.json">Yêu cầu lắp 2 bo</a> · <a href="../GOI_THU_MURATA_FX580_V8_5PCB_2PCBA/VALIDATION.json">Kết quả kiểm</a> · <a href="../logs/MURATA_TRIAL_HANDOFF_20261011.md">Báo cáo bàn giao</a></p>
+<p>Thông số cụ thể dựa trên gói bản thử và log setup JLCONE của dự án. Nguồn JLCPCB được dẫn cạnh phần hướng dẫn tương ứng; kiểm lại ngày 11/10/2026. Đây là tài liệu hướng dẫn, không phải xác nhận quote đã được áp dụng hay đơn đã được đặt.</p>
+<footer>FX580 V8 Murata Trial · 11/10/2026 · Tài liệu local, không thay đổi đơn hàng.</footer></main></body></html>

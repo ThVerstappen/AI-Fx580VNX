@@ -1,0 +1,5134 @@
+{
+  "parser": "Gerbonara 1.6.3; Shapely geometry; pypdfium2 PDF render",
+  "layer_files": {
+    "FX580_Main_EPD_LAYOUT_V8-B_Cu.gbl": {
+      "objects": 607,
+      "file_function": [
+        "Copper",
+        "L4",
+        "Bot"
+      ],
+      "bounds_mm": [
+        [
+          1.400001,
+          -130.51650500000002
+        ],
+        [
+          64.32,
+          -10.7
+        ]
+      ],
+      "area_mm2": 909.1269123259705
+    },
+    "FX580_Main_EPD_LAYOUT_V8-B_Mask.gbs": {
+      "objects": 106,
+      "file_function": [
+        "Soldermask",
+        "Bot"
+      ],
+      "bounds_mm": [
+        [
+          1.400001,
+          -128.9241
+        ],
+        [
+          63.85,
+          -36.9741
+        ]
+      ],
+      "area_mm2": 807.0600443070565
+    },
+    "FX580_Main_EPD_LAYOUT_V8-B_Silkscreen.gbo": {
+      "objects": 1243,
+      "file_function": [
+        "Legend",
+        "Bot"
+      ],
+      "bounds_mm": [
+        [
+          1.400001,
+          -130.70391899999998
+        ],
+        [
+          63.85,
+          -36.9741
+        ]
+      ],
+      "area_mm2": 49.11533207472786
+    },
+    "FX580_Main_EPD_LAYOUT_V8-Edge_Cuts.gm1": {
+      "objects": 28,
+      "file_function": [
+        "Profile",
+        "NP"
+      ],
+      "bounds_mm": [
+        [
+          -0.025,
+          -132.80176470806836
+        ],
+        [
+          65.1250000001225,
+          0.025
+        ]
+      ],
+      "area_mm2": 26.124417430176628
+    },
+    "FX580_Main_EPD_LAYOUT_V8-F_Cu.gtl": {
+      "objects": 2385,
+      "file_function": [
+        "Copper",
+        "L1",
+        "Top"
+      ],
+      "bounds_mm": [
+        [
+          0.3005,
+          -132.472414
+        ],
+        [
+          64.7995,
+          -0.3005
+        ]
+      ],
+      "area_mm2": 7650.92634918898
+    },
+    "FX580_Main_EPD_LAYOUT_V8-F_Mask.gts": {
+      "objects": 343,
+      "file_function": [
+        "Soldermask",
+        "Top"
+      ],
+      "bounds_mm": [
+        [
+          11.275,
+          -79.19999999999999
+        ],
+        [
+          63.475,
+          -7.949999999999999
+        ]
+      ],
+      "area_mm2": 259.74594019041746
+    },
+    "FX580_Main_EPD_LAYOUT_V8-F_Silkscreen.gto": {
+      "objects": 973,
+      "file_function": [
+        "Legend",
+        "Top"
+      ],
+      "bounds_mm": [
+        [
+          11.205,
+          -130.47011700000002
+        ],
+        [
+          65.01,
+          -7.949999999999999
+        ]
+      ],
+      "area_mm2": 46.08581478444347
+    },
+    "FX580_Main_EPD_LAYOUT_V8-In1_Cu.g1": {
+      "objects": 802,
+      "file_function": [
+        "Copper",
+        "L2",
+        "Inr"
+      ],
+      "bounds_mm": [
+        [
+          0.3005,
+          -132.472414
+        ],
+        [
+          64.7995,
+          -0.3005
+        ]
+      ],
+      "area_mm2": 7472.023836892759
+    },
+    "FX580_Main_EPD_LAYOUT_V8-In2_Cu.g2": {
+      "objects": 577,
+      "file_function": [
+        "Copper",
+        "L3",
+        "Inr"
+      ],
+      "bounds_mm": [
+        [
+          0.3005,
+          -132.472414
+        ],
+        [
+          64.7995,
+          -0.3005
+        ]
+      ],
+      "area_mm2": 7610.607687010756
+    },
+    "FX580_Main_EPD_LAYOUT_V8-B_Paste.gbp": {
+      "objects": 0,
+      "file_function": [
+        "Paste",
+        "Bot"
+      ],
+      "bounds_mm": null,
+      "area_mm2": 0.0
+    },
+    "FX580_Main_EPD_LAYOUT_V8-F_Paste.gtp": {
+      "objects": 326,
+      "file_function": [
+        "Paste",
+        "Top"
+      ],
+      "bounds_mm": [
+        [
+          11.275,
+          -77.475
+        ],
+        [
+          63.475,
+          -7.949999999999999
+        ]
+      ],
+      "area_mm2": 220.13385979754167
+    }
+  },
+  "holes": {
+    "(True, False)": 255,
+    "(True, True)": 4,
+    "(False, False)": 4
+  },
+  "total_drill_hits": 263,
+  "all_CAD_holes_match_drill": true,
+  "routed_cutouts": 8,
+  "watertight_outline": true,
+  "routed_dimensions_mm": [
+    65.1,
+    132.777
+  ],
+  "outline_CAD_gerber_Hausdorff_mm": 0.003241,
+  "copper_outside_outline_mm2": {
+    ".gtl": 0.0,
+    ".g1": 0.0,
+    ".g2": 0.0,
+    ".gbl": 0.0
+  },
+  "copper_edge_gap_mm": {
+    ".gtl": 0.30004,
+    ".g1": 0.30004,
+    ".g2": 0.30004,
+    ".gbl": 0.5964
+  },
+  "bottom_paste_empty": true,
+  "PCB_features_excluded_from_paste": true,
+  "placement_purchased_parts": null,
+  "schematic_PDF_pages": null,
+  "parser_warnings": [
+    "E:\\AI Fx580 VNX\\Hardware\\FX580_Main_EPD_LAYOUT_V8\\usb_fix_20261010\\exports_release_20261011\\pcb\\FX580_Main_EPD_LAYOUT_V8-PTH.drl:14 \"G90\": G90 header statement found after end of header",
+    "E:\\AI Fx580 VNX\\Hardware\\FX580_Main_EPD_LAYOUT_V8\\usb_fix_20261010\\exports_release_20261011\\pcb\\FX580_Main_EPD_LAYOUT_V8-NPTH.drl:14 \"G90\": G90 header statement found after end of header"
+  ],
+  "stencil_thickness_screen_mm": 0.1,
+  "paste_apertures": [
+    {
+      "ref": "C21",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        49.47499999999999,
+        -19.975,
+        50.375,
+        -19.025
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    },
+    {
+      "ref": "C21",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        51.025,
+        -19.975,
+        51.925000000000004,
+        -19.025
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    },
+    {
+      "ref": "R2",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        54.525,
+        -63.22500000000001,
+        55.475,
+        -62.425
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R2",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        54.525,
+        -61.575,
+        55.475,
+        -60.77499999999999
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "C4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 1.39634,
+      "bounds_mm": [
+        46.55,
+        -59.725,
+        47.55,
+        -58.275
+      ],
+      "area_ratio_at_0_10mm": 3.123
+    },
+    {
+      "ref": "C4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 1.39634,
+      "bounds_mm": [
+        48.45,
+        -59.725,
+        49.45,
+        -58.275
+      ],
+      "area_ratio_at_0_10mm": 3.123
+    },
+    {
+      "ref": "R9",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        44.525,
+        -61.22500000000001,
+        45.475,
+        -60.425
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R9",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        44.525,
+        -59.575,
+        45.475,
+        -58.77499999999999
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R13",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        18.77499999999999,
+        -61.475,
+        19.575000000000003,
+        -60.525
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R13",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        20.424999999999997,
+        -61.475,
+        21.225,
+        -60.525
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "J3",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.935,
+      "bounds_mm": [
+        28.9,
+        -66.32,
+        30.0,
+        -65.47
+      ],
+      "area_ratio_at_0_10mm": 2.397
+    },
+    {
+      "ref": "J3",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.935,
+      "bounds_mm": [
+        28.9,
+        -67.42,
+        30.0,
+        -66.57000000000001
+      ],
+      "area_ratio_at_0_10mm": 2.397
+    },
+    {
+      "ref": "J3",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.935,
+      "bounds_mm": [
+        28.9,
+        -68.52,
+        30.0,
+        -67.67
+      ],
+      "area_ratio_at_0_10mm": 2.397
+    },
+    {
+      "ref": "J3",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.935,
+      "bounds_mm": [
+        28.9,
+        -69.61999999999999,
+        30.0,
+        -68.77
+      ],
+      "area_ratio_at_0_10mm": 2.397
+    },
+    {
+      "ref": "J3",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.935,
+      "bounds_mm": [
+        28.9,
+        -70.72,
+        30.0,
+        -69.87
+      ],
+      "area_ratio_at_0_10mm": 2.397
+    },
+    {
+      "ref": "J3",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.935,
+      "bounds_mm": [
+        28.9,
+        -71.82,
+        30.0,
+        -70.97
+      ],
+      "area_ratio_at_0_10mm": 2.397
+    },
+    {
+      "ref": "J3",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.935,
+      "bounds_mm": [
+        28.9,
+        -72.92,
+        30.0,
+        -72.07000000000001
+      ],
+      "area_ratio_at_0_10mm": 2.397
+    },
+    {
+      "ref": "J3",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.825,
+      "bounds_mm": [
+        28.9,
+        -73.92,
+        30.0,
+        -73.17
+      ],
+      "area_ratio_at_0_10mm": 2.23
+    },
+    {
+      "ref": "J3",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 1.2,
+      "bounds_mm": [
+        22.8,
+        -63.86,
+        23.8,
+        -62.66
+      ],
+      "area_ratio_at_0_10mm": 2.727
+    },
+    {
+      "ref": "J3",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 1.2,
+      "bounds_mm": [
+        19.1,
+        -63.86,
+        20.1,
+        -62.66
+      ],
+      "area_ratio_at_0_10mm": 2.727
+    },
+    {
+      "ref": "J3",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 2.0925,
+      "bounds_mm": [
+        28.65,
+        -64.21000000000001,
+        30.0,
+        -62.660000000000004
+      ],
+      "area_ratio_at_0_10mm": 3.608
+    },
+    {
+      "ref": "J3",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 2.565,
+      "bounds_mm": [
+        17.95,
+        -67.71000000000001,
+        19.3,
+        -65.81
+      ],
+      "area_ratio_at_0_10mm": 3.946
+    },
+    {
+      "ref": "J3",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 2.565,
+      "bounds_mm": [
+        17.95,
+        -73.68,
+        19.3,
+        -71.78
+      ],
+      "area_ratio_at_0_10mm": 3.946
+    },
+    {
+      "ref": "J3",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 2.106,
+      "bounds_mm": [
+        28.200000000000003,
+        -75.33999999999999,
+        30.0,
+        -74.17
+      ],
+      "area_ratio_at_0_10mm": 3.545
+    },
+    {
+      "ref": "L1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 2.2,
+      "bounds_mm": [
+        49.9,
+        -61.59,
+        52.1,
+        -60.59
+      ],
+      "area_ratio_at_0_10mm": 3.438
+    },
+    {
+      "ref": "L1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 2.2,
+      "bounds_mm": [
+        49.9,
+        -63.41,
+        52.1,
+        -62.41
+      ],
+      "area_ratio_at_0_10mm": 3.438
+    },
+    {
+      "ref": "U3",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.18,
+      "bounds_mm": [
+        46.870000000000005,
+        -61.15,
+        47.47,
+        -60.85
+      ],
+      "area_ratio_at_0_10mm": 1.0
+    },
+    {
+      "ref": "U3",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.18,
+      "bounds_mm": [
+        46.870000000000005,
+        -61.65,
+        47.47,
+        -61.35
+      ],
+      "area_ratio_at_0_10mm": 1.0
+    },
+    {
+      "ref": "U3",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.18,
+      "bounds_mm": [
+        46.870000000000005,
+        -62.15,
+        47.47,
+        -61.85
+      ],
+      "area_ratio_at_0_10mm": 1.0
+    },
+    {
+      "ref": "U3",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.18,
+      "bounds_mm": [
+        46.870000000000005,
+        -62.65,
+        47.47,
+        -62.35
+      ],
+      "area_ratio_at_0_10mm": 1.0
+    },
+    {
+      "ref": "U3",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.18,
+      "bounds_mm": [
+        46.870000000000005,
+        -63.15,
+        47.47,
+        -62.85
+      ],
+      "area_ratio_at_0_10mm": 1.0
+    },
+    {
+      "ref": "U3",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.27,
+      "bounds_mm": [
+        48.37,
+        -63.15,
+        49.27,
+        -62.85
+      ],
+      "area_ratio_at_0_10mm": 1.125
+    },
+    {
+      "ref": "U3",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.27,
+      "bounds_mm": [
+        48.37,
+        -62.65,
+        49.27,
+        -62.35
+      ],
+      "area_ratio_at_0_10mm": 1.125
+    },
+    {
+      "ref": "U3",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.39,
+      "bounds_mm": [
+        47.980000000000004,
+        -62.15,
+        49.28,
+        -61.85
+      ],
+      "area_ratio_at_0_10mm": 1.219
+    },
+    {
+      "ref": "U3",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.27,
+      "bounds_mm": [
+        48.37,
+        -61.65,
+        49.27,
+        -61.35
+      ],
+      "area_ratio_at_0_10mm": 1.125
+    },
+    {
+      "ref": "U3",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.27,
+      "bounds_mm": [
+        48.37,
+        -61.15,
+        49.27,
+        -60.85
+      ],
+      "area_ratio_at_0_10mm": 1.125
+    },
+    {
+      "ref": "C11",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        36.525,
+        -55.225,
+        37.475,
+        -54.324999999999996
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    },
+    {
+      "ref": "C11",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        36.52499999999999,
+        -53.675000000000004,
+        37.475,
+        -52.775
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    },
+    {
+      "ref": "C2",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 1.39634,
+      "bounds_mm": [
+        48.8,
+        -48.225,
+        49.8,
+        -46.775
+      ],
+      "area_ratio_at_0_10mm": 3.123
+    },
+    {
+      "ref": "C2",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 1.39634,
+      "bounds_mm": [
+        50.7,
+        -48.225,
+        51.7,
+        -46.775
+      ],
+      "area_ratio_at_0_10mm": 3.123
+    },
+    {
+      "ref": "R16",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        44.525,
+        -76.22500000000001,
+        45.475,
+        -75.425
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R16",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        44.525,
+        -74.575,
+        45.475,
+        -73.77499999999999
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "C10",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        39.775,
+        -74.475,
+        40.675000000000004,
+        -73.525
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    },
+    {
+      "ref": "C10",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        41.324999999999996,
+        -74.475,
+        42.225,
+        -73.525
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    },
+    {
+      "ref": "R17",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        39.77499999999999,
+        -65.47500000000001,
+        40.575,
+        -64.52499999999999
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R17",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        41.425,
+        -65.47500000000001,
+        42.22500000000001,
+        -64.52499999999999
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "C17",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        43.57499999999999,
+        -20.275000000000002,
+        44.475,
+        -19.325
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    },
+    {
+      "ref": "C17",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        45.125,
+        -20.275000000000002,
+        46.025000000000006,
+        -19.325
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    },
+    {
+      "ref": "C7",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 1.39634,
+      "bounds_mm": [
+        11.275,
+        -59.45,
+        12.725000000000001,
+        -58.45
+      ],
+      "area_ratio_at_0_10mm": 3.123
+    },
+    {
+      "ref": "C7",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 1.39634,
+      "bounds_mm": [
+        11.275,
+        -57.55,
+        12.725000000000001,
+        -56.55
+      ],
+      "area_ratio_at_0_10mm": 3.123
+    },
+    {
+      "ref": "U6",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.77568,
+      "bounds_mm": [
+        52.74999999999999,
+        -58.800000000000004,
+        53.349999999999994,
+        -57.475
+      ],
+      "area_ratio_at_0_10mm": 2.159
+    },
+    {
+      "ref": "U6",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.77568,
+      "bounds_mm": [
+        53.7,
+        -58.800000000000004,
+        54.3,
+        -57.475
+      ],
+      "area_ratio_at_0_10mm": 2.159
+    },
+    {
+      "ref": "U6",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.77568,
+      "bounds_mm": [
+        54.65,
+        -58.800000000000004,
+        55.25,
+        -57.475
+      ],
+      "area_ratio_at_0_10mm": 2.159
+    },
+    {
+      "ref": "U6",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.77568,
+      "bounds_mm": [
+        54.65,
+        -56.525,
+        55.25,
+        -55.199999999999996
+      ],
+      "area_ratio_at_0_10mm": 2.159
+    },
+    {
+      "ref": "U6",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.77568,
+      "bounds_mm": [
+        53.7,
+        -56.525,
+        54.3,
+        -55.199999999999996
+      ],
+      "area_ratio_at_0_10mm": 2.159
+    },
+    {
+      "ref": "U6",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.77568,
+      "bounds_mm": [
+        52.74999999999999,
+        -56.525,
+        53.349999999999994,
+        -55.199999999999996
+      ],
+      "area_ratio_at_0_10mm": 2.159
+    },
+    {
+      "ref": "Q1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.66,
+      "bounds_mm": [
+        57.800000000000004,
+        -74.25,
+        58.9,
+        -73.65
+      ],
+      "area_ratio_at_0_10mm": 1.941
+    },
+    {
+      "ref": "Q1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.66,
+      "bounds_mm": [
+        57.800000000000004,
+        -73.3,
+        58.9,
+        -72.7
+      ],
+      "area_ratio_at_0_10mm": 1.941
+    },
+    {
+      "ref": "Q1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.66,
+      "bounds_mm": [
+        57.800000000000004,
+        -72.35,
+        58.9,
+        -71.75
+      ],
+      "area_ratio_at_0_10mm": 1.941
+    },
+    {
+      "ref": "Q1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.66,
+      "bounds_mm": [
+        55.1,
+        -72.35,
+        56.199999999999996,
+        -71.75
+      ],
+      "area_ratio_at_0_10mm": 1.941
+    },
+    {
+      "ref": "Q1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.66,
+      "bounds_mm": [
+        55.1,
+        -73.3,
+        56.199999999999996,
+        -72.7
+      ],
+      "area_ratio_at_0_10mm": 1.941
+    },
+    {
+      "ref": "Q1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.66,
+      "bounds_mm": [
+        55.1,
+        -74.25,
+        56.199999999999996,
+        -73.65
+      ],
+      "area_ratio_at_0_10mm": 1.941
+    },
+    {
+      "ref": "L2",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 2.5,
+      "bounds_mm": [
+        42.75,
+        -27.6,
+        45.25,
+        -26.6
+      ],
+      "area_ratio_at_0_10mm": 3.571
+    },
+    {
+      "ref": "L2",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 2.5,
+      "bounds_mm": [
+        42.75,
+        -25.0,
+        45.25,
+        -24.0
+      ],
+      "area_ratio_at_0_10mm": 3.571
+    },
+    {
+      "ref": "C25",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        56.125,
+        -53.475,
+        57.075,
+        -52.574999999999996
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    },
+    {
+      "ref": "C25",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        56.125,
+        -55.025000000000006,
+        57.075,
+        -54.125
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    },
+    {
+      "ref": "R4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        32.77499999999999,
+        -50.475,
+        33.575,
+        -49.525
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        34.425,
+        -50.475,
+        35.22500000000001,
+        -49.525
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "C5",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 1.39634,
+      "bounds_mm": [
+        46.55,
+        -65.725,
+        47.55,
+        -64.275
+      ],
+      "area_ratio_at_0_10mm": 3.123
+    },
+    {
+      "ref": "C5",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 1.39634,
+      "bounds_mm": [
+        48.45,
+        -65.725,
+        49.45,
+        -64.275
+      ],
+      "area_ratio_at_0_10mm": 3.123
+    },
+    {
+      "ref": "C3",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        47.275,
+        -48.225,
+        48.225,
+        -47.324999999999996
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    },
+    {
+      "ref": "C3",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        47.27499999999999,
+        -46.675000000000004,
+        48.225,
+        -45.775
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    },
+    {
+      "ref": "Q2",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.86568,
+      "bounds_mm": [
+        35.325,
+        -61.349999999999994,
+        36.8,
+        -60.75
+      ],
+      "area_ratio_at_0_10mm": 2.224
+    },
+    {
+      "ref": "Q2",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.86568,
+      "bounds_mm": [
+        35.325,
+        -63.25,
+        36.8,
+        -62.650000000000006
+      ],
+      "area_ratio_at_0_10mm": 2.224
+    },
+    {
+      "ref": "Q2",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.86568,
+      "bounds_mm": [
+        37.199999999999996,
+        -62.3,
+        38.675,
+        -61.7
+      ],
+      "area_ratio_at_0_10mm": 2.224
+    },
+    {
+      "ref": "R5",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        45.77499999999999,
+        -53.975,
+        46.575,
+        -53.025
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R5",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        47.425,
+        -53.975,
+        48.22500000000001,
+        -53.025
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R11",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        51.77499999999999,
+        -73.47500000000001,
+        52.575,
+        -72.52499999999999
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R11",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        53.425,
+        -73.47500000000001,
+        54.22500000000001,
+        -72.52499999999999
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "U5",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2125,
+      "bounds_mm": [
+        38.555,
+        -68.885,
+        39.404999999999994,
+        -68.635
+      ],
+      "area_ratio_at_0_10mm": 0.966
+    },
+    {
+      "ref": "U5",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2125,
+      "bounds_mm": [
+        38.555,
+        -69.385,
+        39.404999999999994,
+        -69.135
+      ],
+      "area_ratio_at_0_10mm": 0.966
+    },
+    {
+      "ref": "U5",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2125,
+      "bounds_mm": [
+        38.555,
+        -69.885,
+        39.404999999999994,
+        -69.635
+      ],
+      "area_ratio_at_0_10mm": 0.966
+    },
+    {
+      "ref": "U5",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2125,
+      "bounds_mm": [
+        38.555,
+        -70.385,
+        39.404999999999994,
+        -70.135
+      ],
+      "area_ratio_at_0_10mm": 0.966
+    },
+    {
+      "ref": "U5",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2125,
+      "bounds_mm": [
+        38.555,
+        -70.875,
+        39.404999999999994,
+        -70.625
+      ],
+      "area_ratio_at_0_10mm": 0.966
+    },
+    {
+      "ref": "U5",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2125,
+      "bounds_mm": [
+        38.555,
+        -71.375,
+        39.404999999999994,
+        -71.125
+      ],
+      "area_ratio_at_0_10mm": 0.966
+    },
+    {
+      "ref": "U5",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2125,
+      "bounds_mm": [
+        39.625,
+        -72.445,
+        39.875,
+        -71.595
+      ],
+      "area_ratio_at_0_10mm": 0.966
+    },
+    {
+      "ref": "U5",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2125,
+      "bounds_mm": [
+        40.115,
+        -72.445,
+        40.365,
+        -71.595
+      ],
+      "area_ratio_at_0_10mm": 0.966
+    },
+    {
+      "ref": "U5",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2125,
+      "bounds_mm": [
+        40.615,
+        -72.445,
+        40.865,
+        -71.595
+      ],
+      "area_ratio_at_0_10mm": 0.966
+    },
+    {
+      "ref": "U5",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2125,
+      "bounds_mm": [
+        41.115,
+        -72.445,
+        41.365,
+        -71.595
+      ],
+      "area_ratio_at_0_10mm": 0.966
+    },
+    {
+      "ref": "U5",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2125,
+      "bounds_mm": [
+        41.615,
+        -72.445,
+        41.865,
+        -71.595
+      ],
+      "area_ratio_at_0_10mm": 0.966
+    },
+    {
+      "ref": "U5",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2125,
+      "bounds_mm": [
+        42.125,
+        -72.445,
+        42.375,
+        -71.595
+      ],
+      "area_ratio_at_0_10mm": 0.966
+    },
+    {
+      "ref": "U5",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2125,
+      "bounds_mm": [
+        42.595000000000006,
+        -71.385,
+        43.445,
+        -71.135
+      ],
+      "area_ratio_at_0_10mm": 0.966
+    },
+    {
+      "ref": "U5",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2125,
+      "bounds_mm": [
+        42.595000000000006,
+        -70.875,
+        43.445,
+        -70.625
+      ],
+      "area_ratio_at_0_10mm": 0.966
+    },
+    {
+      "ref": "U5",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2125,
+      "bounds_mm": [
+        42.595000000000006,
+        -70.385,
+        43.445,
+        -70.135
+      ],
+      "area_ratio_at_0_10mm": 0.966
+    },
+    {
+      "ref": "U5",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2125,
+      "bounds_mm": [
+        42.595000000000006,
+        -69.885,
+        43.445,
+        -69.635
+      ],
+      "area_ratio_at_0_10mm": 0.966
+    },
+    {
+      "ref": "U5",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2125,
+      "bounds_mm": [
+        42.595000000000006,
+        -69.385,
+        43.445,
+        -69.135
+      ],
+      "area_ratio_at_0_10mm": 0.966
+    },
+    {
+      "ref": "U5",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2125,
+      "bounds_mm": [
+        42.595000000000006,
+        -68.885,
+        43.445,
+        -68.635
+      ],
+      "area_ratio_at_0_10mm": 0.966
+    },
+    {
+      "ref": "U5",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2125,
+      "bounds_mm": [
+        42.125,
+        -68.405,
+        42.375,
+        -67.555
+      ],
+      "area_ratio_at_0_10mm": 0.966
+    },
+    {
+      "ref": "U5",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2125,
+      "bounds_mm": [
+        41.615,
+        -68.405,
+        41.865,
+        -67.555
+      ],
+      "area_ratio_at_0_10mm": 0.966
+    },
+    {
+      "ref": "U5",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2125,
+      "bounds_mm": [
+        41.115,
+        -68.405,
+        41.365,
+        -67.555
+      ],
+      "area_ratio_at_0_10mm": 0.966
+    },
+    {
+      "ref": "U5",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2125,
+      "bounds_mm": [
+        40.615,
+        -68.405,
+        40.865,
+        -67.555
+      ],
+      "area_ratio_at_0_10mm": 0.966
+    },
+    {
+      "ref": "U5",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2125,
+      "bounds_mm": [
+        40.115,
+        -68.405,
+        40.365,
+        -67.555
+      ],
+      "area_ratio_at_0_10mm": 0.966
+    },
+    {
+      "ref": "U5",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2125,
+      "bounds_mm": [
+        39.625,
+        -68.405,
+        39.875,
+        -67.555
+      ],
+      "area_ratio_at_0_10mm": 0.966
+    },
+    {
+      "ref": "U5",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 6.25,
+      "bounds_mm": [
+        39.75,
+        -71.25,
+        42.25,
+        -68.75
+      ],
+      "area_ratio_at_0_10mm": 6.25
+    },
+    {
+      "ref": "C24",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        43.574999999999996,
+        -11.475,
+        44.475,
+        -10.525
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    },
+    {
+      "ref": "C24",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        45.125,
+        -11.475,
+        46.025000000000006,
+        -10.525
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    },
+    {
+      "ref": "R27",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        34.77499999999999,
+        -77.47500000000001,
+        35.575,
+        -76.52499999999999
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R27",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        36.425,
+        -77.47500000000001,
+        37.22500000000001,
+        -76.52499999999999
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "D1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 1.03654,
+      "bounds_mm": [
+        33.4,
+        -24.3,
+        34.300000000000004,
+        -23.099999999999998
+      ],
+      "area_ratio_at_0_10mm": 2.718
+    },
+    {
+      "ref": "D1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 1.03654,
+      "bounds_mm": [
+        36.699999999999996,
+        -24.3,
+        37.6,
+        -23.099999999999998
+      ],
+      "area_ratio_at_0_10mm": 2.718
+    },
+    {
+      "ref": "R29",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        48.425,
+        -26.275,
+        49.375,
+        -25.475
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R29",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        48.425,
+        -27.924999999999997,
+        49.375,
+        -27.125
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "C13",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        62.025,
+        -54.225,
+        62.975,
+        -53.324999999999996
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    },
+    {
+      "ref": "C13",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        62.02499999999999,
+        -52.675000000000004,
+        62.975,
+        -51.775
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    },
+    {
+      "ref": "C20",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        43.574999999999996,
+        -15.875,
+        44.475,
+        -14.925
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    },
+    {
+      "ref": "C20",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        45.125,
+        -15.875,
+        46.025000000000006,
+        -14.925
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    },
+    {
+      "ref": "R18",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        47.77499999999999,
+        -55.475,
+        48.575,
+        -54.525
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R18",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        49.425,
+        -55.475,
+        50.22500000000001,
+        -54.525
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "J1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.85068,
+      "bounds_mm": [
+        56.67999999999999,
+        -66.15,
+        58.13000000000001,
+        -65.54999999999998
+      ],
+      "area_ratio_at_0_10mm": 2.214
+    },
+    {
+      "ref": "J1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.85068,
+      "bounds_mm": [
+        56.67999999999999,
+        -65.35000000000001,
+        58.13000000000001,
+        -64.74999999999999
+      ],
+      "area_ratio_at_0_10mm": 2.214
+    },
+    {
+      "ref": "J1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.43017,
+      "bounds_mm": [
+        56.68,
+        -64.0,
+        58.13,
+        -63.699999999999996
+      ],
+      "area_ratio_at_0_10mm": 1.276
+    },
+    {
+      "ref": "J1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.43017,
+      "bounds_mm": [
+        56.68,
+        -63.00000000000001,
+        58.13,
+        -62.699999999999996
+      ],
+      "area_ratio_at_0_10mm": 1.276
+    },
+    {
+      "ref": "J1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.43017,
+      "bounds_mm": [
+        56.68,
+        -62.50000000000001,
+        58.13,
+        -62.199999999999996
+      ],
+      "area_ratio_at_0_10mm": 1.276
+    },
+    {
+      "ref": "J1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.43017,
+      "bounds_mm": [
+        56.68,
+        -61.50000000000001,
+        58.13,
+        -61.199999999999996
+      ],
+      "area_ratio_at_0_10mm": 1.276
+    },
+    {
+      "ref": "J1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.85068,
+      "bounds_mm": [
+        56.67999999999999,
+        -60.449999999999996,
+        58.13,
+        -59.85
+      ],
+      "area_ratio_at_0_10mm": 2.214
+    },
+    {
+      "ref": "J1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.85068,
+      "bounds_mm": [
+        56.68,
+        -59.65,
+        58.13,
+        -59.050000000000004
+      ],
+      "area_ratio_at_0_10mm": 2.214
+    },
+    {
+      "ref": "J1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.85068,
+      "bounds_mm": [
+        56.68,
+        -59.65,
+        58.13,
+        -59.050000000000004
+      ],
+      "area_ratio_at_0_10mm": 2.214
+    },
+    {
+      "ref": "J1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.85068,
+      "bounds_mm": [
+        56.67999999999999,
+        -60.449999999999996,
+        58.13,
+        -59.85
+      ],
+      "area_ratio_at_0_10mm": 2.214
+    },
+    {
+      "ref": "J1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.43017,
+      "bounds_mm": [
+        56.68,
+        -61.00000000000001,
+        58.13,
+        -60.699999999999996
+      ],
+      "area_ratio_at_0_10mm": 1.276
+    },
+    {
+      "ref": "J1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.43017,
+      "bounds_mm": [
+        56.68,
+        -62.00000000000001,
+        58.13,
+        -61.699999999999996
+      ],
+      "area_ratio_at_0_10mm": 1.276
+    },
+    {
+      "ref": "J1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.43017,
+      "bounds_mm": [
+        56.68,
+        -63.50000000000001,
+        58.13,
+        -63.199999999999996
+      ],
+      "area_ratio_at_0_10mm": 1.276
+    },
+    {
+      "ref": "J1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.43017,
+      "bounds_mm": [
+        56.67999999999999,
+        -64.5,
+        58.13,
+        -64.19999999999999
+      ],
+      "area_ratio_at_0_10mm": 1.276
+    },
+    {
+      "ref": "J1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.85068,
+      "bounds_mm": [
+        56.67999999999999,
+        -65.35000000000001,
+        58.13000000000001,
+        -64.74999999999999
+      ],
+      "area_ratio_at_0_10mm": 2.214
+    },
+    {
+      "ref": "J1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.85068,
+      "bounds_mm": [
+        56.67999999999999,
+        -66.15,
+        58.13000000000001,
+        -65.54999999999998
+      ],
+      "area_ratio_at_0_10mm": 2.214
+    },
+    {
+      "ref": "R8",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        44.525,
+        -65.22500000000001,
+        45.475,
+        -64.425
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R8",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        44.525,
+        -63.575,
+        45.475,
+        -62.77499999999999
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R15",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        47.025,
+        -72.22500000000001,
+        47.975,
+        -71.425
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R15",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        47.025,
+        -70.575,
+        47.975,
+        -69.77499999999999
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "C8",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        11.525,
+        -55.225,
+        12.475000000000001,
+        -54.324999999999996
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    },
+    {
+      "ref": "C8",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        11.524999999999991,
+        -53.675000000000004,
+        12.475000000000001,
+        -52.775
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    },
+    {
+      "ref": "R10",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        53.525,
+        -70.22500000000001,
+        54.475,
+        -69.425
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R10",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        53.525,
+        -68.575,
+        54.475,
+        -67.77499999999999
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R3",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        32.77499999999999,
+        -52.475,
+        33.575,
+        -51.525
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R3",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        34.425,
+        -52.475,
+        35.22500000000001,
+        -51.525
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "D2",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 1.03654,
+      "bounds_mm": [
+        34.89999999999999,
+        -28.900000000000002,
+        35.800000000000004,
+        -27.7
+      ],
+      "area_ratio_at_0_10mm": 2.718
+    },
+    {
+      "ref": "D2",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 1.03654,
+      "bounds_mm": [
+        38.19999999999999,
+        -28.900000000000002,
+        39.1,
+        -27.7
+      ],
+      "area_ratio_at_0_10mm": 2.718
+    },
+    {
+      "ref": "C15",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        43.574999999999996,
+        -22.475,
+        44.475,
+        -21.525
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    },
+    {
+      "ref": "C15",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        45.12499999999999,
+        -22.475,
+        46.025000000000006,
+        -21.525
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    },
+    {
+      "ref": "R25",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        34.77499999999999,
+        -71.47500000000001,
+        35.575,
+        -70.52499999999999
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R25",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        36.425,
+        -71.47500000000001,
+        37.22500000000001,
+        -70.52499999999999
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R19",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        44.77499999999999,
+        -57.475,
+        45.575,
+        -56.525
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R19",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        46.425,
+        -57.475,
+        47.22500000000001,
+        -56.525
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "C14",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        62.525,
+        -76.225,
+        63.475,
+        -75.32500000000002
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    },
+    {
+      "ref": "C14",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        62.525,
+        -74.67499999999998,
+        63.475,
+        -73.775
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    },
+    {
+      "ref": "C19",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        43.574999999999996,
+        -18.075000000000003,
+        44.475,
+        -17.125
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    },
+    {
+      "ref": "C19",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        45.125,
+        -18.075000000000003,
+        46.025000000000006,
+        -17.125
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    },
+    {
+      "ref": "C22",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        43.574999999999996,
+        -13.674999999999999,
+        44.475,
+        -12.725
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    },
+    {
+      "ref": "C22",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        45.125,
+        -13.674999999999999,
+        46.025000000000006,
+        -12.725
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    },
+    {
+      "ref": "U2",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.38762,
+      "bounds_mm": [
+        49.28000000000001,
+        -50.919999999999995,
+        49.919999999999995,
+        -50.28000000000001
+      ],
+      "area_ratio_at_0_10mm": 1.696
+    },
+    {
+      "ref": "U2",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.38762,
+      "bounds_mm": [
+        49.28000000000001,
+        -51.71999999999999,
+        49.919999999999995,
+        -51.080000000000005
+      ],
+      "area_ratio_at_0_10mm": 1.696
+    },
+    {
+      "ref": "U2",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.38762,
+      "bounds_mm": [
+        50.080000000000005,
+        -50.919999999999995,
+        50.71999999999999,
+        -50.28000000000001
+      ],
+      "area_ratio_at_0_10mm": 1.696
+    },
+    {
+      "ref": "U2",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.38762,
+      "bounds_mm": [
+        50.080000000000005,
+        -51.71999999999999,
+        50.71999999999999,
+        -51.080000000000005
+      ],
+      "area_ratio_at_0_10mm": 1.696
+    },
+    {
+      "ref": "U2",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2154,
+      "bounds_mm": [
+        48.125,
+        -50.375,
+        49.0,
+        -50.125
+      ],
+      "area_ratio_at_0_10mm": 1.005
+    },
+    {
+      "ref": "U2",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2154,
+      "bounds_mm": [
+        48.125,
+        -50.875,
+        49.0,
+        -50.625
+      ],
+      "area_ratio_at_0_10mm": 1.005
+    },
+    {
+      "ref": "U2",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2154,
+      "bounds_mm": [
+        48.125,
+        -51.375,
+        49.0,
+        -51.125
+      ],
+      "area_ratio_at_0_10mm": 1.005
+    },
+    {
+      "ref": "U2",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2154,
+      "bounds_mm": [
+        48.125,
+        -51.875,
+        49.0,
+        -51.625
+      ],
+      "area_ratio_at_0_10mm": 1.005
+    },
+    {
+      "ref": "U2",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2154,
+      "bounds_mm": [
+        49.125,
+        -52.875,
+        49.375,
+        -52.0
+      ],
+      "area_ratio_at_0_10mm": 1.005
+    },
+    {
+      "ref": "U2",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2154,
+      "bounds_mm": [
+        49.625,
+        -52.875,
+        49.875,
+        -52.0
+      ],
+      "area_ratio_at_0_10mm": 1.005
+    },
+    {
+      "ref": "U2",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2154,
+      "bounds_mm": [
+        50.125,
+        -52.875,
+        50.375,
+        -52.0
+      ],
+      "area_ratio_at_0_10mm": 1.005
+    },
+    {
+      "ref": "U2",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2154,
+      "bounds_mm": [
+        50.625,
+        -52.875,
+        50.875,
+        -52.0
+      ],
+      "area_ratio_at_0_10mm": 1.005
+    },
+    {
+      "ref": "U2",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2154,
+      "bounds_mm": [
+        51.0,
+        -51.875,
+        51.875,
+        -51.625
+      ],
+      "area_ratio_at_0_10mm": 1.005
+    },
+    {
+      "ref": "U2",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2154,
+      "bounds_mm": [
+        51.0,
+        -51.375,
+        51.875,
+        -51.125
+      ],
+      "area_ratio_at_0_10mm": 1.005
+    },
+    {
+      "ref": "U2",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2154,
+      "bounds_mm": [
+        51.0,
+        -50.875,
+        51.875,
+        -50.625
+      ],
+      "area_ratio_at_0_10mm": 1.005
+    },
+    {
+      "ref": "U2",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2154,
+      "bounds_mm": [
+        51.0,
+        -50.375,
+        51.875,
+        -50.125
+      ],
+      "area_ratio_at_0_10mm": 1.005
+    },
+    {
+      "ref": "U2",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2154,
+      "bounds_mm": [
+        50.625,
+        -50.0,
+        50.875,
+        -49.125
+      ],
+      "area_ratio_at_0_10mm": 1.005
+    },
+    {
+      "ref": "U2",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2154,
+      "bounds_mm": [
+        50.125,
+        -50.0,
+        50.375,
+        -49.125
+      ],
+      "area_ratio_at_0_10mm": 1.005
+    },
+    {
+      "ref": "U2",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2154,
+      "bounds_mm": [
+        49.625,
+        -50.0,
+        49.875,
+        -49.125
+      ],
+      "area_ratio_at_0_10mm": 1.005
+    },
+    {
+      "ref": "U2",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.2154,
+      "bounds_mm": [
+        49.125,
+        -50.0,
+        49.375,
+        -49.125
+      ],
+      "area_ratio_at_0_10mm": 1.005
+    },
+    {
+      "ref": "D3",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 1.03654,
+      "bounds_mm": [
+        46.89999999999999,
+        -19.550000000000004,
+        48.1,
+        -18.65
+      ],
+      "area_ratio_at_0_10mm": 2.718
+    },
+    {
+      "ref": "D3",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 1.03654,
+      "bounds_mm": [
+        46.9,
+        -22.85,
+        48.1,
+        -21.949999999999996
+      ],
+      "area_ratio_at_0_10mm": 2.718
+    },
+    {
+      "ref": "R24",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        34.77499999999999,
+        -68.47500000000001,
+        35.575,
+        -67.52499999999999
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R24",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        36.425,
+        -68.47500000000001,
+        37.22500000000001,
+        -67.52499999999999
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R14",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        44.525,
+        -72.22500000000001,
+        45.475,
+        -71.425
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R14",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        44.525,
+        -70.575,
+        45.475,
+        -69.77499999999999
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R21",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        51.525,
+        -66.72500000000001,
+        52.475,
+        -65.925
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R21",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        51.525,
+        -65.075,
+        52.475,
+        -64.27499999999999
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "C9",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        15.774999999999999,
+        -41.475,
+        16.675000000000004,
+        -40.525
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    },
+    {
+      "ref": "C9",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        17.324999999999996,
+        -41.475,
+        18.225,
+        -40.525
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    },
+    {
+      "ref": "R20",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        35.77499999999999,
+        -57.475,
+        36.575,
+        -56.525
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R20",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        37.425,
+        -57.475,
+        38.22500000000001,
+        -56.525
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "C23",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        40.025,
+        -29.525000000000002,
+        40.975,
+        -28.624999999999996
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    },
+    {
+      "ref": "C23",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        40.025,
+        -27.975,
+        40.975,
+        -27.074999999999996
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    },
+    {
+      "ref": "R26",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        34.77499999999999,
+        -74.47500000000001,
+        35.575,
+        -73.52499999999999
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R26",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        36.425,
+        -74.47500000000001,
+        37.22500000000001,
+        -73.52499999999999
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R30",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        42.025,
+        -28.974999999999998,
+        42.975,
+        -28.175
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R30",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        42.025,
+        -30.625,
+        42.975,
+        -29.825000000000003
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R23",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        34.77499999999999,
+        -65.47500000000001,
+        35.575,
+        -64.52499999999999
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R23",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        36.425,
+        -65.47500000000001,
+        37.22500000000001,
+        -64.52499999999999
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "Q3",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.40538,
+      "bounds_mm": [
+        46.12500000000001,
+        -25.950000000000003,
+        46.575,
+        -25.025
+      ],
+      "area_ratio_at_0_10mm": 1.585
+    },
+    {
+      "ref": "Q3",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.40538,
+      "bounds_mm": [
+        47.425000000000004,
+        -25.950000000000003,
+        47.875,
+        -25.025
+      ],
+      "area_ratio_at_0_10mm": 1.585
+    },
+    {
+      "ref": "Q3",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.40538,
+      "bounds_mm": [
+        46.77499999999999,
+        -24.175,
+        47.224999999999994,
+        -23.249999999999996
+      ],
+      "area_ratio_at_0_10mm": 1.585
+    },
+    {
+      "ref": "R28",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        46.77499999999999,
+        -44.975,
+        47.575,
+        -44.025
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R28",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        48.425,
+        -44.975,
+        49.22500000000001,
+        -44.025
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R22",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        54.025,
+        -66.72500000000001,
+        54.975,
+        -65.925
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R22",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        54.025,
+        -65.075,
+        54.975,
+        -64.27499999999999
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R6",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        41.525,
+        -54.22500000000001,
+        42.475,
+        -53.425
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R6",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        41.525,
+        -52.575,
+        42.475,
+        -51.77499999999999
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "C6",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 1.39634,
+      "bounds_mm": [
+        46.55,
+        -68.225,
+        47.55,
+        -66.775
+      ],
+      "area_ratio_at_0_10mm": 3.123
+    },
+    {
+      "ref": "C6",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 1.39634,
+      "bounds_mm": [
+        48.45,
+        -68.225,
+        49.45,
+        -66.775
+      ],
+      "area_ratio_at_0_10mm": 3.123
+    },
+    {
+      "ref": "J4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.39,
+      "bounds_mm": [
+        57.5,
+        -22.4,
+        58.8,
+        -22.1
+      ],
+      "area_ratio_at_0_10mm": 1.219
+    },
+    {
+      "ref": "J4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.39,
+      "bounds_mm": [
+        57.5,
+        -21.9,
+        58.8,
+        -21.6
+      ],
+      "area_ratio_at_0_10mm": 1.219
+    },
+    {
+      "ref": "J4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.39,
+      "bounds_mm": [
+        57.5,
+        -21.4,
+        58.8,
+        -21.1
+      ],
+      "area_ratio_at_0_10mm": 1.219
+    },
+    {
+      "ref": "J4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.39,
+      "bounds_mm": [
+        57.5,
+        -20.9,
+        58.8,
+        -20.6
+      ],
+      "area_ratio_at_0_10mm": 1.219
+    },
+    {
+      "ref": "J4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.39,
+      "bounds_mm": [
+        57.5,
+        -20.4,
+        58.8,
+        -20.1
+      ],
+      "area_ratio_at_0_10mm": 1.219
+    },
+    {
+      "ref": "J4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.39,
+      "bounds_mm": [
+        57.5,
+        -19.9,
+        58.8,
+        -19.6
+      ],
+      "area_ratio_at_0_10mm": 1.219
+    },
+    {
+      "ref": "J4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.39,
+      "bounds_mm": [
+        57.5,
+        -19.4,
+        58.8,
+        -19.1
+      ],
+      "area_ratio_at_0_10mm": 1.219
+    },
+    {
+      "ref": "J4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.39,
+      "bounds_mm": [
+        57.5,
+        -18.9,
+        58.8,
+        -18.6
+      ],
+      "area_ratio_at_0_10mm": 1.219
+    },
+    {
+      "ref": "J4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.39,
+      "bounds_mm": [
+        57.5,
+        -18.4,
+        58.8,
+        -18.1
+      ],
+      "area_ratio_at_0_10mm": 1.219
+    },
+    {
+      "ref": "J4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.39,
+      "bounds_mm": [
+        57.5,
+        -17.9,
+        58.8,
+        -17.6
+      ],
+      "area_ratio_at_0_10mm": 1.219
+    },
+    {
+      "ref": "J4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.39,
+      "bounds_mm": [
+        57.5,
+        -17.4,
+        58.8,
+        -17.1
+      ],
+      "area_ratio_at_0_10mm": 1.219
+    },
+    {
+      "ref": "J4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.39,
+      "bounds_mm": [
+        57.5,
+        -16.9,
+        58.8,
+        -16.6
+      ],
+      "area_ratio_at_0_10mm": 1.219
+    },
+    {
+      "ref": "J4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.39,
+      "bounds_mm": [
+        57.5,
+        -16.4,
+        58.8,
+        -16.1
+      ],
+      "area_ratio_at_0_10mm": 1.219
+    },
+    {
+      "ref": "J4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.39,
+      "bounds_mm": [
+        57.5,
+        -15.9,
+        58.8,
+        -15.6
+      ],
+      "area_ratio_at_0_10mm": 1.219
+    },
+    {
+      "ref": "J4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.39,
+      "bounds_mm": [
+        57.5,
+        -15.4,
+        58.8,
+        -15.1
+      ],
+      "area_ratio_at_0_10mm": 1.219
+    },
+    {
+      "ref": "J4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.39,
+      "bounds_mm": [
+        57.5,
+        -14.9,
+        58.8,
+        -14.6
+      ],
+      "area_ratio_at_0_10mm": 1.219
+    },
+    {
+      "ref": "J4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.39,
+      "bounds_mm": [
+        57.5,
+        -14.4,
+        58.8,
+        -14.1
+      ],
+      "area_ratio_at_0_10mm": 1.219
+    },
+    {
+      "ref": "J4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.39,
+      "bounds_mm": [
+        57.5,
+        -13.9,
+        58.8,
+        -13.6
+      ],
+      "area_ratio_at_0_10mm": 1.219
+    },
+    {
+      "ref": "J4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.39,
+      "bounds_mm": [
+        57.5,
+        -13.4,
+        58.8,
+        -13.1
+      ],
+      "area_ratio_at_0_10mm": 1.219
+    },
+    {
+      "ref": "J4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.39,
+      "bounds_mm": [
+        57.5,
+        -12.9,
+        58.8,
+        -12.6
+      ],
+      "area_ratio_at_0_10mm": 1.219
+    },
+    {
+      "ref": "J4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.39,
+      "bounds_mm": [
+        57.5,
+        -12.4,
+        58.8,
+        -12.1
+      ],
+      "area_ratio_at_0_10mm": 1.219
+    },
+    {
+      "ref": "J4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.39,
+      "bounds_mm": [
+        57.5,
+        -11.9,
+        58.8,
+        -11.6
+      ],
+      "area_ratio_at_0_10mm": 1.219
+    },
+    {
+      "ref": "J4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.39,
+      "bounds_mm": [
+        57.5,
+        -11.4,
+        58.8,
+        -11.1
+      ],
+      "area_ratio_at_0_10mm": 1.219
+    },
+    {
+      "ref": "J4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.39,
+      "bounds_mm": [
+        57.5,
+        -10.9,
+        58.8,
+        -10.6
+      ],
+      "area_ratio_at_0_10mm": 1.219
+    },
+    {
+      "ref": "J4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 3.96,
+      "bounds_mm": [
+        60.3,
+        -25.049999999999997,
+        62.5,
+        -23.25
+      ],
+      "area_ratio_at_0_10mm": 4.95
+    },
+    {
+      "ref": "J4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 3.96,
+      "bounds_mm": [
+        60.3,
+        -9.75,
+        62.5,
+        -7.949999999999999
+      ],
+      "area_ratio_at_0_10mm": 4.95
+    },
+    {
+      "ref": "R12",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        13.524999999999999,
+        -42.22500000000001,
+        14.475000000000001,
+        -41.425
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R12",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        13.524999999999999,
+        -40.575,
+        14.475000000000001,
+        -39.77499999999999
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "C16",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 1.39634,
+      "bounds_mm": [
+        40.849999999999994,
+        -24.425,
+        41.85,
+        -22.974999999999998
+      ],
+      "area_ratio_at_0_10mm": 3.123
+    },
+    {
+      "ref": "C16",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 1.39634,
+      "bounds_mm": [
+        38.95,
+        -24.425,
+        39.95,
+        -22.974999999999998
+      ],
+      "area_ratio_at_0_10mm": 3.123
+    },
+    {
+      "ref": "U4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.77568,
+      "bounds_mm": [
+        59.39999999999999,
+        -70.35000000000001,
+        60.72500000000001,
+        -69.74999999999999
+      ],
+      "area_ratio_at_0_10mm": 2.159
+    },
+    {
+      "ref": "U4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.77568,
+      "bounds_mm": [
+        59.4,
+        -71.30000000000001,
+        60.72500000000001,
+        -70.69999999999999
+      ],
+      "area_ratio_at_0_10mm": 2.159
+    },
+    {
+      "ref": "U4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.77568,
+      "bounds_mm": [
+        59.39999999999999,
+        -72.25000000000001,
+        60.72500000000001,
+        -71.64999999999999
+      ],
+      "area_ratio_at_0_10mm": 2.159
+    },
+    {
+      "ref": "U4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.77568,
+      "bounds_mm": [
+        61.675,
+        -72.25000000000001,
+        63.00000000000001,
+        -71.64999999999999
+      ],
+      "area_ratio_at_0_10mm": 2.159
+    },
+    {
+      "ref": "U4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.77568,
+      "bounds_mm": [
+        61.67499999999998,
+        -71.30000000000001,
+        63.00000000000001,
+        -70.69999999999999
+      ],
+      "area_ratio_at_0_10mm": 2.159
+    },
+    {
+      "ref": "U4",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.77568,
+      "bounds_mm": [
+        61.675,
+        -70.35000000000001,
+        63.00000000000001,
+        -69.74999999999999
+      ],
+      "area_ratio_at_0_10mm": 2.159
+    },
+    {
+      "ref": "R1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        54.525,
+        -52.22500000000001,
+        55.475,
+        -51.425
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "R1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.72566,
+      "bounds_mm": [
+        54.525,
+        -50.575,
+        55.475,
+        -49.77499999999999
+      ],
+      "area_ratio_at_0_10mm": 2.299
+    },
+    {
+      "ref": "C12",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        35.775,
+        -59.475,
+        36.675000000000004,
+        -58.525
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    },
+    {
+      "ref": "C12",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        37.324999999999996,
+        -59.475,
+        38.225,
+        -58.525
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    },
+    {
+      "ref": "C18",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 1.39634,
+      "bounds_mm": [
+        44.349999999999994,
+        -30.225,
+        45.35,
+        -28.775
+      ],
+      "area_ratio_at_0_10mm": 3.123
+    },
+    {
+      "ref": "C18",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 1.39634,
+      "bounds_mm": [
+        46.25,
+        -30.225,
+        47.25,
+        -28.775
+      ],
+      "area_ratio_at_0_10mm": 3.123
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        16.85,
+        -58.4,
+        17.25,
+        -57.6
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        17.7,
+        -58.4,
+        18.099999999999998,
+        -57.6
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        18.55,
+        -58.4,
+        18.95,
+        -57.6
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        19.400000000000002,
+        -58.4,
+        19.8,
+        -57.6
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        20.25,
+        -58.4,
+        20.65,
+        -57.6
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        21.1,
+        -58.4,
+        21.5,
+        -57.6
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        21.95,
+        -58.4,
+        22.349999999999998,
+        -57.6
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        22.8,
+        -58.4,
+        23.2,
+        -57.6
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        23.650000000000002,
+        -58.4,
+        24.05,
+        -57.6
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        24.5,
+        -58.4,
+        24.9,
+        -57.6
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        25.35,
+        -58.4,
+        25.75,
+        -57.6
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        26.2,
+        -58.4,
+        26.599999999999998,
+        -57.6
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        27.05,
+        -58.4,
+        27.45,
+        -57.6
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        27.900000000000002,
+        -58.4,
+        28.3,
+        -57.6
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        28.75,
+        -58.4,
+        29.15,
+        -57.6
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        29.6,
+        -57.150000000000006,
+        30.4,
+        -56.75
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        29.6,
+        -56.300000000000004,
+        30.4,
+        -55.9
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        29.6,
+        -55.45,
+        30.4,
+        -55.05
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        29.6,
+        -54.6,
+        30.4,
+        -54.199999999999996
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        29.6,
+        -53.75,
+        30.4,
+        -53.349999999999994
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        29.6,
+        -52.900000000000006,
+        30.4,
+        -52.5
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        29.6,
+        -52.050000000000004,
+        30.4,
+        -51.65
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        29.6,
+        -51.2,
+        30.4,
+        -50.8
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        29.6,
+        -50.35,
+        30.4,
+        -49.949999999999996
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        29.6,
+        -49.5,
+        30.4,
+        -49.099999999999994
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        29.6,
+        -48.650000000000006,
+        30.4,
+        -48.25
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        29.6,
+        -47.800000000000004,
+        30.4,
+        -47.4
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        29.6,
+        -46.95,
+        30.4,
+        -46.55
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        29.6,
+        -46.1,
+        30.4,
+        -45.699999999999996
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        29.6,
+        -45.25,
+        30.4,
+        -44.849999999999994
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        28.75,
+        -44.4,
+        29.15,
+        -43.6
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        27.900000000000002,
+        -44.4,
+        28.3,
+        -43.6
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        27.05,
+        -44.4,
+        27.45,
+        -43.6
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        26.2,
+        -44.4,
+        26.599999999999998,
+        -43.6
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        25.35,
+        -44.4,
+        25.75,
+        -43.6
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        24.5,
+        -44.4,
+        24.9,
+        -43.6
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        23.650000000000002,
+        -44.4,
+        24.05,
+        -43.6
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        22.8,
+        -44.4,
+        23.2,
+        -43.6
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        21.95,
+        -44.4,
+        22.349999999999998,
+        -43.6
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        21.1,
+        -44.4,
+        21.5,
+        -43.6
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        20.25,
+        -44.4,
+        20.65,
+        -43.6
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        19.400000000000002,
+        -44.4,
+        19.8,
+        -43.6
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        18.55,
+        -44.4,
+        18.95,
+        -43.6
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        17.7,
+        -44.4,
+        18.099999999999998,
+        -43.6
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        16.85,
+        -44.4,
+        17.25,
+        -43.6
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        15.6,
+        -45.25,
+        16.4,
+        -44.849999999999994
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        15.6,
+        -46.1,
+        16.4,
+        -45.699999999999996
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        15.6,
+        -46.95,
+        16.4,
+        -46.55
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        15.6,
+        -47.800000000000004,
+        16.4,
+        -47.4
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        15.6,
+        -48.650000000000006,
+        16.4,
+        -48.25
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        15.6,
+        -49.5,
+        16.4,
+        -49.099999999999994
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        15.6,
+        -50.35,
+        16.4,
+        -49.949999999999996
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        15.6,
+        -51.2,
+        16.4,
+        -50.8
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        15.6,
+        -52.050000000000004,
+        16.4,
+        -51.65
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        15.6,
+        -52.900000000000006,
+        16.4,
+        -52.5
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        15.6,
+        -53.75,
+        16.4,
+        -53.349999999999994
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        15.6,
+        -54.6,
+        16.4,
+        -54.199999999999996
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        15.6,
+        -55.45,
+        16.4,
+        -55.05
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        15.6,
+        -56.300000000000004,
+        16.4,
+        -55.9
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.32,
+      "bounds_mm": [
+        15.6,
+        -57.150000000000006,
+        16.4,
+        -56.75
+      ],
+      "area_ratio_at_0_10mm": 1.333
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 1.36159,
+      "bounds_mm": [
+        20.75,
+        -53.25,
+        21.950000000000003,
+        -52.05
+      ],
+      "area_ratio_at_0_10mm": 2.981
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 1.44,
+      "bounds_mm": [
+        22.4,
+        -53.25,
+        23.6,
+        -52.05
+      ],
+      "area_ratio_at_0_10mm": 3.0
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 1.44,
+      "bounds_mm": [
+        24.049999999999997,
+        -53.25,
+        25.25,
+        -52.05
+      ],
+      "area_ratio_at_0_10mm": 3.0
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 1.44,
+      "bounds_mm": [
+        20.75,
+        -51.6,
+        21.950000000000003,
+        -50.4
+      ],
+      "area_ratio_at_0_10mm": 3.0
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 1.44,
+      "bounds_mm": [
+        22.4,
+        -51.6,
+        23.6,
+        -50.4
+      ],
+      "area_ratio_at_0_10mm": 3.0
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 1.44,
+      "bounds_mm": [
+        24.049999999999997,
+        -51.6,
+        25.25,
+        -50.4
+      ],
+      "area_ratio_at_0_10mm": 3.0
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 1.44,
+      "bounds_mm": [
+        20.75,
+        -49.95,
+        21.950000000000003,
+        -48.75
+      ],
+      "area_ratio_at_0_10mm": 3.0
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 1.44,
+      "bounds_mm": [
+        22.4,
+        -49.95,
+        23.6,
+        -48.75
+      ],
+      "area_ratio_at_0_10mm": 3.0
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 1.44,
+      "bounds_mm": [
+        24.049999999999997,
+        -49.95,
+        25.25,
+        -48.75
+      ],
+      "area_ratio_at_0_10mm": 3.0
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.64,
+      "bounds_mm": [
+        15.6,
+        -58.4,
+        16.4,
+        -57.6
+      ],
+      "area_ratio_at_0_10mm": 2.0
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.64,
+      "bounds_mm": [
+        29.6,
+        -58.4,
+        30.4,
+        -57.6
+      ],
+      "area_ratio_at_0_10mm": 2.0
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.64,
+      "bounds_mm": [
+        29.6,
+        -44.4,
+        30.4,
+        -43.6
+      ],
+      "area_ratio_at_0_10mm": 2.0
+    },
+    {
+      "ref": "U1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.64,
+      "bounds_mm": [
+        15.6,
+        -44.4,
+        16.4,
+        -43.6
+      ],
+      "area_ratio_at_0_10mm": 2.0
+    },
+    {
+      "ref": "C1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        51.775,
+        -46.225,
+        52.725,
+        -45.324999999999996
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    },
+    {
+      "ref": "C1",
+      "pad_attribute": [
+        "",
+        ""
+      ],
+      "area_mm2": 0.81154,
+      "bounds_mm": [
+        51.77499999999999,
+        -44.675000000000004,
+        52.725,
+        -43.775
+      ],
+      "area_ratio_at_0_10mm": 2.449
+    }
+  ],
+  "low_stencil_area_ratio": [],
+  "paste_over_via_holes": [],
+  "exposed_vias": [],
+  "mask_gaps_below_0_10mm": [],
+  "limitations": [
+    "Arc geometry approximated to 1um; clearance screening includes a 2um guard.",
+    "Local CAM/DFM checks, not manufacturer engineering approval or electrical/fit validation.",
+    "Stencil area ratio is a screening calculation at 0.10mm; assembler must approve fine-pitch and thermal-pad apertures."
+  ]
+}

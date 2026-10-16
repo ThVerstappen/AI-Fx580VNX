@@ -1,0 +1,108 @@
+{
+  "revision": "V8_USB_FIX1",
+  "bom_groups": 35,
+  "bom_parts_per_board": 71,
+  "cpl_rows": 71,
+  "cpl_top_rows": 71,
+  "netlist_components": 133,
+  "netlist_excluded_components": 62,
+  "exclusions_unchanged": true,
+  "C25": {
+    "Designator": "C25",
+    "MidX": "56.6",
+    "MidY": "-53.8",
+    "Layer": "Top",
+    "Rotation": "270.0"
+  },
+  "C14663_group": {
+    "Comment": "100nF 50V 10% X7R",
+    "Designator": "C8,C10,C12,C13,C14,C25",
+    "Footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "LCSCPart#": "C14663",
+    "Manufacturer Part Number": "CC0603KRX7R9BB104",
+    "Manufacturer": "YAGEO",
+    "Quantity": "6"
+  },
+  "existing_70_cpl_rows_and_raw_bytes_preserved": true,
+  "old_bom_groups_preserved_except_C14663_designator_quantity": true,
+  "bom_references_equal_cpl_references": true,
+  "bom_footprints_equal_netlist": true,
+  "populated_schematic_LCSC_codes_equal_BOM": true,
+  "C25_LCSC_equals_BOM": true,
+  "inherited_missing_schematic_LCSC_fields": [
+    {
+      "reference": "C15",
+      "bom_LCSC": "C559769"
+    },
+    {
+      "reference": "C17",
+      "bom_LCSC": "C559769"
+    },
+    {
+      "reference": "C19",
+      "bom_LCSC": "C559769"
+    },
+    {
+      "reference": "C20",
+      "bom_LCSC": "C559769"
+    },
+    {
+      "reference": "C21",
+      "bom_LCSC": "C559769"
+    },
+    {
+      "reference": "C22",
+      "bom_LCSC": "C559769"
+    },
+    {
+      "reference": "C23",
+      "bom_LCSC": "C559769"
+    },
+    {
+      "reference": "C24",
+      "bom_LCSC": "C559769"
+    },
+    {
+      "reference": "C16",
+      "bom_LCSC": "C98192"
+    },
+    {
+      "reference": "C18",
+      "bom_LCSC": "C98192"
+    },
+    {
+      "reference": "J1",
+      "bom_LCSC": "C165948"
+    },
+    {
+      "reference": "J4",
+      "bom_LCSC": "C202112"
+    },
+    {
+      "reference": "Q3",
+      "bom_LCSC": "C469327"
+    },
+    {
+      "reference": "R30",
+      "bom_LCSC": "C22935"
+    },
+    {
+      "reference": "R29",
+      "bom_LCSC": "C22939"
+    },
+    {
+      "reference": "U1",
+      "bom_LCSC": "C22356044"
+    }
+  ],
+  "root_original_bom_sha256": "b332950d8c7da70e4b189710d3333ecfc0b47038267a2bc8a632b2387f311153",
+  "root_original_cpl_sha256": "a84596d610f39629029b549d670a58a6859b5a87385c0461af7b661a21d7c9ba",
+  "final_schematic_sha256": "ee99d3e4a1b9a918ae5de7c29e8c223810441aa4a9b3986cfefdc51363b67eaa",
+  "final_bom_sha256": "3f3951c32f453268f416b5a892aec2036b19c1da65c2a26e35af50cadb1f00ff",
+  "final_cpl_sha256": "7b6acdaf8f257cb0c66f3a77a3222b59390973d6bf42022adecdf68257a42614",
+  "project_settings_unchanged": true,
+  "schematic_U6_only_Ref_Value_text_positions_moved": true,
+  "schematic_title_block": "FX580 V8 USB_FIX1 engineering DRAFT / V8 USB_FIX1 / 2026-10-10",
+  "C25_coordinates_source": "Root coordinator final native PCB geometry; assembly X right/Y up from auxiliary origin; no hardware measurement",
+  "actual_matched_part_factory_preview": "not performed"
+}

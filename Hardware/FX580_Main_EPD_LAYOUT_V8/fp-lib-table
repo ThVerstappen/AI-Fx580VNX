@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "FX580") (type "KiCad") (uri "${KIPRJMOD}/lib/FX580.pretty") (options "") (descr "Mainboard footprints")))
